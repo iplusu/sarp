@@ -1,0 +1,2 @@
+cp Makefile.telosb Makefile
+make telosb

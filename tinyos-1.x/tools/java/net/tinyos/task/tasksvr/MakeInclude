@@ -1,0 +1,17 @@
+SRC = $(wildcard *.java) 
+JAVA = $(SRC)
+CLASSES = $(JAVA:.java=.class)
+
+all: tinydb $(JAVA) $(CLASSES)
+	make -C web/WEB-INF/classes
+# general rule for java files
+%.class: %.java
+	javac $<
+
+tinydb:
+	make -C ../../tinydb -f $(TINYDB_MAKEFILE)
+
+clean:
+	rm -rf *.class
+	rm -rf web/WEB-INF/classes/*.class
+	make -C ../../tinydb -f $(TINYDB_MAKEFILE) clean

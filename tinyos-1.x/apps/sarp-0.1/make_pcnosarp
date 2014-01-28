@@ -1,0 +1,2 @@
+cp Makefile.pc.nosarp Makefile
+make pc

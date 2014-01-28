@@ -1,0 +1,9 @@
+---- calculateForgettingFactor Matches (8 in 3 files) ----
+TransactionTableM.nc (modules):			forgetFP = call Trust.calculateForgettingFactor(neighbors[tnLoopCounter].trust.GFB, neighbors[tnLoopCounter].trust.BFB, neighbors[tnLoopCounter].trust.trustPR);
+TransactionTableM.nc (modules):			forgetLP = call Trust.calculateForgettingFactor(neighbors[tnLoopCounter].trust.GLB, neighbors[tnLoopCounter].trust.BLB, neighbors[tnLoopCounter].trust.trustPR);
+TransactionTableM.nc (modules):			dbg(DBG_USR3, "[%d] EXP:%d GFB:%d BFB:%d CalFP:%f Exp:%f FP-forget:%f\n", neighbors[tnLoopCounter].node_id, tnForgettingCnt, neighbors[tnLoopCounter].trust.GFB, neighbors[tnLoopCounter].trust.BFB, call Trust.calculateFP(neighbors[tnLoopCounter].trust.GFB, neighbors[tnLoopCounter].trust.BFB), expo(call Trust.calculateForgettingFactor(neighbors[tnLoopCounter].trust.GFB, neighbors[tnLoopCounter].trust.BFB), tnForgettingCnt), forgetFP);
+TransactionTableM.nc (modules):			dbg(DBG_USR3, "[%d] EXP:%d GLB:%d BLB:%d CalLP:%f Exp:%f LP-forget:%f\n", neighbors[tnLoopCounter].node_id, tnForgettingCnt, neighbors[tnLoopCounter].trust.GLB, neighbors[tnLoopCounter].trust.BLB, call Trust.calculateFP(neighbors[tnLoopCounter].trust.GLB, neighbors[tnLoopCounter].trust.BLB), expo(call Trust.calculateForgettingFactor(neighbors[tnLoopCounter].trust.GLB, neighbors[tnLoopCounter].trust.BLB), tnForgettingCnt), forgetLP);
+Trust.nc (interfaces):	command float calculateForgettingFactor(uint32_t GB_1, uint32_t BB_1, float trustPR);
+Trust.nc (interfaces):	command float calculateForgettingFactor(uint32_t GB_1, uint32_t BB_1);
+TrustM.nc (modules):	command float Trust.calculateForgettingFactor(uint32_t GB_1, uint32_t BB_1, float trustPR)
+TrustM.nc (modules):	command float Trust.calculateForgettingFactor(uint32_t GB_1, uint32_t BB_1)

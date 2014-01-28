@@ -1,0 +1,2181 @@
+SIM: Random seed is 555200
+SIM: Time for mote 0 initialized to 5583402.
+SIM: Time for mote 1 initialized to 9758832.
+SIM: Time for mote 2 initialized to 30217403.
+SIM: Time for mote 3 initialized to 32259044.
+SIM: Time for mote 4 initialized to 34911907.
+SIM: Time for mote 5 initialized to 11708428.
+SIM: Time for mote 6 initialized to 31676334.
+SIM: Time for mote 7 initialized to 2938329.
+SIM: Time for mote 8 initialized to 39282322.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:0
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:0
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:1
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:1
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:255 Level:255 NumOfNeighbors:0
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:255 Level:255 NumOfNeighbors:0
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:1
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:1
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:1
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:1
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:255 Level:255 NumOfNeighbors:0
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:255 Level:255 NumOfNeighbors:0
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:1
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:1
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:1
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:1
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 255.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 255.
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:255 Level:255 NumOfNeighbors:0
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:255 Level:255 NumOfNeighbors:0
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 255.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 255.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:255 Level:255 NumOfNeighbors:0
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:1
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:1
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:255 Level:255 NumOfNeighbors:1
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 255.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 255.
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:255 Level:255 NumOfNeighbors:1
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:2
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:2
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:2
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:2
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:2
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:2
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:2
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:2
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 26 writeOutQHere : 27
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 6 writeOutQHere : 7
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 7 writeOutQHere : 8
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+7: In processOutMsg in SarpM.nc 321 // TYPE : 20
+7: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+7: SendDisc Done from 7 to 65535 success: 0
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 7 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 7 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 27 writeOutQHere : 28
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 7 with a level of 3.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+7: SendDisc Done from 7 to 65535 success: 1
+7: NodeID:7 ParentID:4 Level:3 NumOfNeighbors:3
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 28 writeOutQHere : 29
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+0: In processOutMsg in SarpM.nc 321 // TYPE : 20
+0: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+0: SendDisc Done from 0 to 65535 success: 0
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 0 with a level of 0.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 8 writeOutQHere : 9
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 0 with a level of 0.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+0: SendDisc Done from 0 to 65535 success: 1
+0: NodeID:0 ParentID:255 Level:0 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 29 writeOutQHere : 30
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 9 writeOutQHere : 10
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 10 writeOutQHere : 11
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+1: In processOutMsg in SarpM.nc 321 // TYPE : 20
+1: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+1: SendDisc Done from 1 to 65535 success: 0
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 1 with a level of 1.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 1 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 1 with a level of 1.
+1: SendDisc Done from 1 to 65535 success: 1
+1: NodeID:1 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 11 writeOutQHere : 12
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+5: In processOutMsg in SarpM.nc 321 // TYPE : 20
+5: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+5: SendDisc Done from 5 to 65535 success: 0
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 5 with a level of 3.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+8: In ReceiveDisc in SarpM.nc 1434
+8: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+8: 8 heard Discovery message from 5 with a level of 3.
+8: In processOutMsg in SarpM.nc 321 // TYPE : 21
+8: numMsgOutQ : 1 readOutQHere : 30 writeOutQHere : 31
+2: In ReceiveDisc in SarpM.nc 1434
+2: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+2: 2 heard Discovery message from 5 with a level of 3.
+2: In processOutMsg in SarpM.nc 321 // TYPE : 21
+2: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+5: SendDisc Done from 5 to 65535 success: 1
+5: NodeID:5 ParentID:2 Level:3 NumOfNeighbors:3
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 31 writeOutQHere : 0
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 12 writeOutQHere : 13
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 13 writeOutQHere : 14
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 23 writeOutQHere : 24
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 14 writeOutQHere : 15
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 4 writeOutQHere : 5
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 0 writeOutQHere : 1
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 // TYPE : 20
+6: numMsgOutQ : 1 readOutQHere : 2 writeOutQHere : 3
+6: SendDisc Done from 6 to 65535 success: 0
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 6 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 15 writeOutQHere : 16
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 6 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+6: SendDisc Done from 6 to 65535 success: 1
+6: NodeID:6 ParentID:3 Level:2 NumOfNeighbors:2
+3: In processOutMsg in SarpM.nc 321 // TYPE : 20
+3: numMsgOutQ : 1 readOutQHere : 16 writeOutQHere : 17
+3: SendDisc Done from 3 to 65535 success: 0
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In ReceiveDisc in SarpM.nc 1434
+4: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+4: 4 heard Discovery message from 3 with a level of 1.
+4: In processOutMsg in SarpM.nc 321 // TYPE : 21
+4: numMsgOutQ : 1 readOutQHere : 24 writeOutQHere : 25
+0: In ReceiveDisc in SarpM.nc 1434
+0: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+0: 0 heard Discovery message from 3 with a level of 1.
+6: In ReceiveDisc in SarpM.nc 1434
+6: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+6: 6 heard Discovery message from 3 with a level of 1.
+6: In processOutMsg in SarpM.nc 321 // TYPE : 21
+6: numMsgOutQ : 1 readOutQHere : 3 writeOutQHere : 4
+3: SendDisc Done from 3 to 65535 success: 1
+3: NodeID:3 ParentID:0 Level:1 NumOfNeighbors:3
+4: In processOutMsg in SarpM.nc 321 // TYPE : 20
+4: numMsgOutQ : 1 readOutQHere : 25 writeOutQHere : 26
+4: SendDisc Done from 4 to 65535 success: 0
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+3: In ReceiveDisc in SarpM.nc 1434
+3: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+3: 3 heard Discovery message from 4 with a level of 2.
+3: In processOutMsg in SarpM.nc 321 // TYPE : 21
+3: numMsgOutQ : 1 readOutQHere : 17 writeOutQHere : 18
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 4 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 4 with a level of 2.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 18 writeOutQHere : 19
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 4 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+4: SendDisc Done from 4 to 65535 success: 1
+4: NodeID:4 ParentID:3 Level:2 NumOfNeighbors:4
+2: In processOutMsg in SarpM.nc 321 // TYPE : 20
+2: numMsgOutQ : 1 readOutQHere : 5 writeOutQHere : 6
+2: SendDisc Done from 2 to 65535 success: 0
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 2 with a level of 2.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 20 writeOutQHere : 21
+1: In ReceiveDisc in SarpM.nc 1434
+1: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+1: 1 heard Discovery message from 2 with a level of 2.
+1: In processOutMsg in SarpM.nc 321 // TYPE : 21
+1: numMsgOutQ : 1 readOutQHere : 22 writeOutQHere : 23
+2: SendDisc Done from 2 to 65535 success: 1
+2: NodeID:2 ParentID:1 Level:2 NumOfNeighbors:2
+8: In processOutMsg in SarpM.nc 321 // TYPE : 20
+8: numMsgOutQ : 1 readOutQHere : 1 writeOutQHere : 2
+8: SendDisc Done from 8 to 65535 success: 0
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+7: In ReceiveDisc in SarpM.nc 1434
+7: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+7: 7 heard Discovery message from 8 with a level of 4.
+7: In processOutMsg in SarpM.nc 321 // TYPE : 21
+7: numMsgOutQ : 1 readOutQHere : 19 writeOutQHere : 20
+5: In ReceiveDisc in SarpM.nc 1434
+5: addr: 65535 type: 20 group:125 length:28 Data Length: 29
+5: 5 heard Discovery message from 8 with a level of 4.
+5: In processOutMsg in SarpM.nc 321 // TYPE : 21
+5: numMsgOutQ : 1 readOutQHere : 21 writeOutQHere : 22
+8: SendDisc Done from 8 to 65535 success: 1
+8: NodeID:8 ParentID:7 Level:4 NumOfNeighbors:2
+6: In processOutMsg in SarpM.nc 321 //

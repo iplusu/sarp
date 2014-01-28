@@ -1,0 +1,603 @@
+SIM: Random seed is 458838
+SIM: Time for mote 0 initialized to 36937779.
+SIM: Time for mote 1 initialized to 22192253.
+SIM: Time for mote 2 initialized to 13843145.
+SIM: Time for mote 3 initialized to 20445085.
+SIM: Time for mote 4 initialized to 32774643.
+SIM: Time for mote 5 initialized to 9052782.
+SIM: Time for mote 6 initialized to 2341945.
+SIM: Time for mote 7 initialized to 36380788.
+SIM: Time for mote 8 initialized to 22864387.
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: transaction_id:                    50000
+1: originating Node:                  5
+1: receivedFrom:                      2
+1: isValid:                           1
+1: packetsReceived:                   1
+1: packetsForwarded:                  1
+1: packetsForwardedTo:                0
+1: oneHopReported:                    1
+1: oneHopReportedPacketsReceived:     1
+1: oneHopReportedPacketsForwarded:    1
+1: oneHopReportedPacketsForwardedTo:  0
+1: twoHopReported:                    0
+1: twoHopReportedPacketsReceived:     0
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: transaction_id:                    50000
+5: originating Node:                  5
+5: receivedFrom:                      255
+5: isValid:                           1
+5: packetsReceived:                   9
+5: packetsForwarded:                  10
+5: packetsForwardedTo:                2
+5: oneHopReported:                    1
+5: oneHopReportedPacketsReceived:     10
+5: oneHopReportedPacketsForwarded:    10
+5: oneHopReportedPacketsForwardedTo:  1
+5: twoHopReported:                    1
+5: twoHopReportedPacketsReceived:     1
+5: [2] GFB: 2.000000 BFB: 9.000000 trustFP:1.000000
+5: transaction: 50000 node: 2 overall: 0.230769
+5: transaction: 50000 node: 8 overall: 1.000000
+5: transaction: 50000 node: 1 overall: 1.000000
+5: transaction: 50000 node: 4 overall: 1.000000
+5: transaction: 50000 node: 3 overall: 1.000000
+5: transaction: 50000 node: 7 overall: 1.000000
+5: transaction: 50000 node: 2 overall: 0.230769
+5: transaction: 50000 node: 8 overall: 1.000000
+5: [1] GFB: 1.000000 BFB: 0.000000 trustFP:1.000000
+5: transaction: 50000 node: 1 overall: 1.000000
+5: transaction: 50000 node: 4 overall: 1.000000
+5: transaction: 50000 node: 3 overall: 1.000000
+5: transaction: 50000 node: 7 overall: 1.000000
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: transaction_id:                    50000
+2: originating Node:                  5
+2: receivedFrom:                      5
+2: isValid:                           1
+2: packetsReceived:                   10
+2: packetsForwarded:                  10
+2: packetsForwardedTo:                1
+2: oneHopReported:                    1
+2: oneHopReportedPacketsReceived:     1
+2: oneHopReportedPacketsForwarded:    1
+2: oneHopReportedPacketsForwardedTo:  0
+2: twoHopReported:                    1
+2: twoHopReportedPacketsReceived:     1
+2: transaction: 50000 node: 5 overall: 1.000000
+2: [1] GFB: 2.000000 BFB: 9.000000 trustFP:1.000000
+2: transaction: 50000 node: 1 overall: 0.230769
+2: transaction: 50000 node: 8 overall: 1.000000
+2: transaction: 50000 node: 4 overall: 1.000000
+2: transaction: 50000 node: 0 overall: 1.000000
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 2 BB: 9 Forgetting Factor: 1.230769
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: transaction_id:                    50001
+3: originating Node:                  5
+3: receivedFrom:                      4
+3: isValid:                           1
+3: packetsReceived:                   7
+3: packetsForwarded:                  7
+3: packetsForwardedTo:                0
+3: oneHopReported:                    1
+3: oneHopReportedPacketsReceived:     7
+3: oneHopReportedPacketsForwarded:    1
+3: oneHopReportedPacketsForwardedTo:  0
+3: twoHopReported:                    0
+3: twoHopReportedPacketsReceived:     0
+4: transaction_id:                    50001
+4: originating Node:                  5
+4: receivedFrom:                      5
+4: isValid:                           1
+4: packetsReceived:                   10
+4: packetsForwarded:                  10
+4: packetsForwardedTo:                3
+4: oneHopReported:                    1
+4: oneHopReportedPacketsReceived:     7
+4: oneHopReportedPacketsForwarded:    7
+4: oneHopReportedPacketsForwardedTo:  0
+4: twoHopReported:                    1
+4: twoHopReportedPacketsReceived:     7
+4: transaction: 50001 node: 5 overall: 1.000000
+4: transaction: 50001 node: 2 overall: 1.000000
+4: transaction: 50001 node: 8 overall: 1.000000
+4: [3] GFB: 8.000000 BFB: 3.000000 trustFP:1.000000
+4: transaction: 50001 node: 3 overall: 0.692308
+4: transaction: 50001 node: 6 overall: 1.000000
+4: transaction: 50001 node: 1 overall: 1.000000
+4: transaction: 50001 node: 0 overall: 1.000000
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 8 BB: 3 Forgetting Factor: 1.692308
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: transaction_id:                    50001
+5: originating Node:                  5
+5: receivedFrom:                      255
+5: isValid:                           1
+5: packetsReceived:                   9
+5: packetsForwarded:                  10
+5: packetsForwardedTo:                4
+5: oneHopReported:                    1
+5: oneHopReportedPacketsReceived:     10
+5: oneHopReportedPacketsForwarded:    10
+5: oneHopReportedPacketsForwardedTo:  3
+5: twoHopReported:                    1
+5: twoHopReportedPacketsReceived:     7
+5: transaction: 50001 node: 2 overall: 0.284024
+5: transaction: 50001 node: 8 overall: 1.000000
+5: transaction: 50001 node: 1 overall: 1.000000
+5: [4] GFB: 8.000000 BFB: 3.000000 trustFP:1.000000
+5: transaction: 50001 node: 4 overall: 0.692308
+5: transaction: 50001 node: 3 overall: 1.000000
+5: transaction: 50001 node: 7 overall: 1.000000
+5: transaction: 50001 node: 2 overall: 0.284024
+5: transaction: 50001 node: 8 overall: 1.000000
+5: transaction: 50001 node: 1 overall: 1.000000
+5: transaction: 50001 node: 4 overall: 0.692308
+5: [3] GFB: 1.000000 BFB: 0.000000 trustFP:1.000000
+5: transaction: 50001 node: 3 overall: 1.000000
+5: transaction: 50001 node: 7 overall: 1.000000
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 2 BB: 9 Forgetting Factor: 1.230769
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 8 BB: 3 Forgetting Factor: 1.692308
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 8 BB: 3 Forgetting Factor: 1.692308
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 2 BB: 9 Forgetting Factor: 1.230769
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: transaction_id:                    50001
+0: originating Node:                  5
+0: receivedFrom:                      3
+0: isValid:                           0
+0: packetsReceived:                   7
+0: packetsForwarded:                  1
+0: packetsForwardedTo:                0
+0: oneHopReported:                    255
+0: oneHopReportedPacketsReceived:     0
+0: oneHopReportedPacketsForwarded:    0
+0: oneHopReportedPacketsForwardedTo:  255
+0: twoHopReported:                    0
+0: twoHopReportedPacketsReceived:     0
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 8 BB: 3 Forgetting Factor: 1.692308
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 8 BB: 3 Forgetting Factor: 1.692308
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: transaction_id:                    50002
+5: originating Node:                  5
+5: receivedFrom:                      255
+5: isValid:                           1
+5: packetsReceived:                   9
+5: packetsForwarded:                  10
+5: packetsForwardedTo:                8
+5: oneHopReported:                    1
+5: oneHopReportedPacketsReceived:     10
+5: oneHopReportedPacketsForwarded:    10
+5: oneHopReportedPacketsForwardedTo:  7
+5: twoHopReported:                    1
+5: twoHopReportedPacketsReceived:     10
+5: transaction: 50002 node: 2 overall: 0.284024
+5: [8] GFB: 11.000000 BFB: 0.000000 trustFP:1.000000
+5: transaction: 50002 node: 8 overall: 1.000000
+5: transaction: 50002 node: 1 overall: 1.000000
+5: transaction: 50002 node: 4 overall: 1.000000
+5: transaction: 50002 node: 3 overall: 1.000000
+5: transaction: 50002 node: 7 overall: 1.000000
+5: transaction: 50002 node: 2 overall: 0.284024
+5: transaction: 50002 node: 8 overall: 1.000000
+5: transaction: 50002 node: 1 overall: 1.000000
+5: transaction: 50002 node: 4 overall: 1.000000
+5: transaction: 50002 node: 3 overall: 1.000000
+5: [7] GFB: 1.000000 BFB: 0.000000 trustFP:1.000000
+5: transaction: 50002 node: 7 overall: 1.000000
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 2 BB: 9 Forgetting Factor: 1.230769
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 8 BB: 3 Forgetting Factor: 1.692308
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 11 BB: 0 Forgetting Factor: 1.923077
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 8 BB: 3 Forgetting Factor: 1.692308
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 2 BB: 9 Forgetting Factor: 1.230769
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+3: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: transaction_id:                    50002
+8: originating Node:                  5
+8: receivedFrom:                      5
+8: isValid:                           1
+8: packetsReceived:                   10
+8: packetsForwarded:                  10
+8: packetsForwardedTo:                7
+8: oneHopReported:                    1
+8: oneHopReportedPacketsReceived:     10
+8: oneHopReportedPacketsForwarded:    10
+8: oneHopReportedPacketsForwardedTo:  4
+8: twoHopReported:                    255
+8: twoHopReportedPacketsReceived:     0
+8: transaction: 50002 node: 5 overall: 1.000000
+8: transaction: 50002 node: 2 overall: 1.000000
+8: transaction: 50002 node: 4 overall: 1.000000
+8: [7] GFB: 11.000000 BFB: 0.000000 trustFP:1.000000
+8: transaction: 50002 node: 7 overall: 1.000000
+8: transaction: 50002 node: 6 overall: 1.000000
+8: transaction: 50002 node: 5 overall: 1.000000
+8: transaction: 50002 node: 2 overall: 1.000000
+8: [4] GFB: 1.000000 BFB: 0.000000 trustFP:1.000000
+8: transaction: 50002 node: 4 overall: 1.000000
+8: transaction: 50002 node: 7 overall: 1.000000
+8: transaction: 50002 node: 6 overall: 1.000000
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+1: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+8: GB: 11 BB: 0 Forgetting Factor: 1.923077
+8: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 8 BB: 3 Forgetting Factor: 1.692308
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+4: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+0: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+6: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 2 BB: 9 Forgetting Factor: 1.230769
+5: GB: 11 BB: 0 Forgetting Factor: 1.923077
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 8 BB: 3 Forgetting Factor: 1.692308
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+5: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 2 BB: 9 Forgetting Factor: 1.230769
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+2: GB: 1 BB: 0 Forgetting Factor: 1.666667
+7: transaction_id:                    50002
+7: originating Node:                  5
+7: receivedFrom:                      8
+7: isValid:                           1
+7: packetsReceived:                   10
+7: packetsForwarded:                  10
+7: packetsForwardedTo:                4
+7: oneHopReported:                    255
+7: oneHopReportedPacketsReceived:     0
+7: oneHopReportedPacketsForwarded:    0
+7: oneHopReportedPacketsForwardedTo:  255
+7: twoHopReported:                    255
+7: twoHopReportedPacketsReceived:     0
+7: transaction: 50002 node: 8 overall: 1.000000
+7: transaction: 50002 node: 5 overall: 1.000000
+7: [4] GFB: 1.000000 BFB: 0.000000 trustFP:1.000000
+7: transaction: 50002 node: 4 overall: 1.000000
+7: transaction: 50002 node: 3 overall: 1.000000
+7: transaction: 50002 node: 1 overall: 1.000000
+7: transaction: 50002 node: 6 overall: 1.000000
+5: transaction_id:                    50003
+5: originating Node:                  5
+5: receivedFrom:                      255
+5: isValid:                           1
+5: packetsReceived:                   9
+5: packetsForwarded:                  10
+5: packetsForwardedTo:                4
+5: oneHopReported:                    1
+5: oneHopReportedPacketsReceived:     10
+5: oneHopReportedPacketsForwarded:    10
+5: oneHopReportedPacketsForwardedTo:  3
+5: twoHopReported:                    1
+5: twoHopReportedPacketsReceived:     7
+5: transaction: 50003 node: 2 overall: 0.284024
+5: transaction: 50003 node: 8 overall: 1.000000
+5: transaction: 50003 node: 1 overall: 1.000000
+5: [4] GFB: 15.000000 BFB: 6.000000 trustFP:1.000000
+5: transaction: 50003 node: 4 overall: 0.695652
+5: transaction: 50003 node: 3 overall: 1.000000
+5: transaction: 50003 node: 7 overall: 1.000000
+5: transaction: 50003 node: 2 overall: 0.284024
+5: transac

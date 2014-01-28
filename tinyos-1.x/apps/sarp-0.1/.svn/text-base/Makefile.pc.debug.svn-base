@@ -1,0 +1,3 @@
+COMPONENT=Sarp
+PFLAGS=-I%T/lib/Counters -I%T/interfaces -DDEBUG
+include ../Makerules

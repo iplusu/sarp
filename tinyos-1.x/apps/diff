@@ -1,0 +1,366 @@
+Common subdirectories: sarp-0.4-dev/Documentation and sarp-0.4-dev-jt/Documentation
+Common subdirectories: sarp-0.4-dev/includes and sarp-0.4-dev-jt/includes
+Common subdirectories: sarp-0.4-dev/interfaces and sarp-0.4-dev-jt/interfaces
+diff -d sarp-0.4-dev/Makefile sarp-0.4-dev-jt/Makefile
+3c3
+< PFLAGS=-I%T/lib/Counters -I%T/../apps/sarp-0.4-dev/includes -I%T/../apps/sarp-0.4-dev/modules -I%T/../apps/sarp-0.4-dev/interfaces -DNOSARP -DONOFFATTACK -DSARP04 -DDEBUG -D__REAL__MOTE__ -I%T/lib/Util
+---
+> PFLAGS=-I%T/lib/Counters -I%T/../apps/sarp-0.4-dev/includes -I%T/../apps/sarp-0.4-dev/modules -I%T/../apps/sarp-0.4-dev/interfaces -DDEBUG -DONOFFATTACK -DSARP04 -DPREDICTABILITY -DDYNAMIC_FORGETTING -D__REAL__MOTE__ -I%T/lib/Util
+Only in sarp-0.4-dev: Makefile.telosb.nodfpr
+Only in sarp-0.4-dev: Makefile.telosb.noprmodi
+Only in sarp-0.4-dev: Makefile.telosb.noprmodibh
+Only in sarp-0.4-dev: Makefile.telosb.noprorig
+Only in sarp-0.4-dev: Makefile.telosb.nosarp
+Only in sarp-0.4-dev: make_telosbnodfpr
+Only in sarp-0.4-dev: make_telosbnopr
+Only in sarp-0.4-dev: make_telosbnoprmodi
+Only in sarp-0.4-dev: make_telosbnoprmodibh
+Only in sarp-0.4-dev: make_telosbnoprorig
+Only in sarp-0.4-dev: make_telosbnosarp
+Common subdirectories: sarp-0.4-dev/modules and sarp-0.4-dev-jt/modules
+Common subdirectories: sarp-0.4-dev/nss and sarp-0.4-dev-jt/nss
+diff -d sarp-0.4-dev/SarpM.nc sarp-0.4-dev-jt/SarpM.nc
+91d90
+< 	#ifdef DYNAMIC_FORGETTING
+93d91
+< 	#endif
+107,108c105,106
+< //#ifdef PREDICTABILITY
+< //#ifdef __REAL__MOTE__
+---
+> #ifdef PREDICTABILITY
+> #ifdef __REAL__MOTE__
+111,112c109,110
+< //#endif
+< //#endif
+---
+> #endif
+> #endif
+130,131c128,129
+< //#ifdef PREDICTABILITY
+< //#ifdef __REAL__MOTE__
+---
+> #ifdef PREDICTABILITY
+> #ifdef __REAL__MOTE__
+135,136c133,134
+< //#endif
+< //#endif
+---
+> #endif
+> #endif
+369,437c367,438
+< 				while(numMsgOutQ > 0){
+< 					/* First we copy the message to our outMsg TOS_Msg structure */
+< 					uint8_t *put, *get;
+< 					#ifdef SARP04_DBG
+< 					dbg(DBG_USR3, "In processOutMsg in %s %d // TYPE : %d\r\n", __FILE__, __LINE__, outQ[readOutQHere].type);
+< 					dbg(DBG_USR3, "numMsgOutQ : %d readOutQHere : %d writeOutQHere : %d\r\n", numMsgOutQ, readOutQHere, writeOutQHere);
+< 					#endif
+< 					outMsg.addr   = outQ[readOutQHere].addr;
+< 					outMsg.type   = outQ[readOutQHere].type;
+< 					outMsg.group  = outQ[readOutQHere].group;
+< 					outMsg.crc	  = outQ[readOutQHere].crc;
+< 					get = (uint8_t *) &(outQ[readOutQHere].data);
+< 					put = (uint8_t *) &(outMsg.data);
+< 					for (outIndex = 0; outIndex < TOS_DATA_LENGTH; outIndex++)
+< 					{
+< 						*put = *get;
+< 						put++;
+< 						get++;
+< 					}
+< 		
+< 					/* Check to see if there is work to be done.  This is a redundant check. */
+< 					if (numMsgOutQ > 0)
+< 					{
+< 						/* Find the type of message, and send it based on its type */
+< 						uint8_t type = outQ[readOutQHere].type;
+< 						switch (type){
+< 						case DISCOVERY_MSG_TYPE:
+< 							//dbg(DBG_USR1, "%d sending DISC MSG\r\n", myAddr);
+< 							call SendDisc.send(TOS_BCAST_ADDR, sizeof(ControlMsg), &outMsg);
+< 							//while(call SendDisc.send(TOS_BCAST_ADDR, sizeof(DiscoveryMsg), &outMsg) == FAIL);
+< 							break;
+< 						/* JRT */
+< 	          			case AM_CONTROLMSG:
+< 	          				if (((ControlMsg *)(outMsg.data))->msgType == CONTROL_DISC_UART_TYPE) {
+< 	          					//if (call TrafficGenerator.isTrafficGenerator(myAddr) == 1)
+< 	          						call SendUart.send(outMsg.addr, sizeof(ControlMsg), &outMsg);
+< 	          				}
+< 	          	            else if (((ControlMsg *)(outMsg.data))->msgType == CONTROL_START_TYPE) {
+< 	            				call SendStart.send(outMsg.addr, sizeof(ControlMsg), &outMsg);
+< 	            			}
+< 	          				break;						
+< 						/*case CONTROL_MSG_TYPE:*/
+< 							//dbg(DBG_USR1, "%d sending START MSG\r\n", myAddr);
+< 							//call SendStart.send(outMsg.addr, sizeof(ControlMsg), &outMsg);
+< 							//while(call SendStart.send(outMsg.addr, sizeof(StartMsg), &outMsg) == FAIL);
+< 							break;
+< 						case DATA_MSG_TYPE:
+< 							dbg(DBG_USR1, "%d sending DATA message to %d\r\n", myAddr, outMsg.addr);
+< 							call SendData.send(outMsg.addr, sizeof(DataMsg), &outMsg);
+< 							#ifndef __REAL__MOTE__
+< 							sendSarpParent(((DataMsg*)outMsg.data)->transaction_id, myAddr, outMsg.addr);
+< 							#endif
+< 							//while(call SendData.send(outMsg.addr, sizeof(DataMsg), &outMsg) == FAIL);
+< 							break;
+< 						case REPORT_REQUEST_MSG_TYPE:
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending REPORT_REQUEST message to %d, \r\n", myAddr, outMsg.addr);
+< 							//dbg(DBG_USR1, "%02x%02x %02x%02x %02x%02x %02x%02x\r\n", outMsg.data[0], outMsg.data[1], outMsg.data[2], outMsg.data[3], outMsg.data[4], outMsg.data[5], outMsg.data[6], outMsg.data[7]);
+< 							#endif
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending REPORT_REQUEST message to %d sizeof %d \r\n", myAddr, outMsg.addr, sizeof(ReportRequestMsg));
+< 							#endif
+< 							call SendReportRequest.send(outMsg.addr, sizeof(ReportRequestMsg), &outMsg);
+< 							break;
+< 						case REPORT_RESPONSE_NO_FORWARD_MSG_TYPE:
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending REPORT_RESPONSE NO FORWARD message to %d\r\n", myAddr, outMsg.addr);
+< 							#endif
+< 							#ifdef ONOFFATTACK
+---
+> 				//while(numMsgOutQ > 0){
+> 				/* First we copy the message to our outMsg TOS_Msg structure */
+> 				uint8_t *put, *get;
+> 				#ifdef SARP04_DBG
+> 				dbg(DBG_USR3, "In processOutMsg in %s %d // TYPE : %d\r\n", __FILE__, __LINE__, outQ[readOutQHere].type);
+> 				dbg(DBG_USR3, "numMsgOutQ : %d readOutQHere : %d writeOutQHere : %d\r\n", numMsgOutQ, readOutQHere, writeOutQHere);
+> 				#endif
+> 				outMsg.addr   = outQ[readOutQHere].addr;
+> 				outMsg.type   = outQ[readOutQHere].type;
+> 				outMsg.group  = outQ[readOutQHere].group;
+> 				outMsg.crc	  = outQ[readOutQHere].crc;
+> 				get = (uint8_t *) &(outQ[readOutQHere].data);
+> 				put = (uint8_t *) &(outMsg.data);
+> 				for (outIndex = 0; outIndex < TOS_DATA_LENGTH; outIndex++)
+> 				{
+> 					*put = *get;
+> 					put++;
+> 					get++;
+> 				}
+> 	
+> 				/* Check to see if there is work to be done.  This is a redundant check. */
+> 				if (numMsgOutQ > 0)
+> 				{
+> 					/* Find the type of message, and send it based on its type */
+> 					uint8_t type = outQ[readOutQHere].type;
+> 					switch (type){
+> 					case DISCOVERY_MSG_TYPE:
+> 						//dbg(DBG_USR1, "%d sending DISC MSG\r\n", myAddr);
+> 						call SendDisc.send(TOS_BCAST_ADDR, sizeof(ControlMsg), &outMsg);
+> 						//while(call SendDisc.send(TOS_BCAST_ADDR, sizeof(DiscoveryMsg), &outMsg) == FAIL);
+> 						break;
+> 					/* JRT */
+>           			case AM_CONTROLMSG:
+>           				if (((ControlMsg *)(outMsg.data))->msgType == CONTROL_DISC_UART_TYPE) {
+>           					//if (call TrafficGenerator.isTrafficGenerator(myAddr) == 1)
+>           						call SendUart.send(outMsg.addr, sizeof(ControlMsg), &outMsg);
+>           				}
+>           	            else if (((ControlMsg *)(outMsg.data))->msgType == CONTROL_START_TYPE) {
+>             				call SendStart.send(outMsg.addr, sizeof(ControlMsg), &outMsg);
+>             			}
+>           				break;						
+> 					/*case CONTROL_MSG_TYPE:*/
+> 						//dbg(DBG_USR1, "%d sending START MSG\r\n", myAddr);
+> 						//call SendStart.send(outMsg.addr, sizeof(ControlMsg), &outMsg);
+> 						//while(call SendStart.send(outMsg.addr, sizeof(StartMsg), &outMsg) == FAIL);
+> 						break;
+> 					case DATA_MSG_TYPE:
+> 						dbg(DBG_USR1, "%d sending DATA message to %d\r\n", myAddr, outMsg.addr);
+> 						call SendData.send(outMsg.addr, sizeof(DataMsg), &outMsg);
+> 						#ifndef __REAL__MOTE__
+> 						sendSarpParent(((DataMsg*)outMsg.data)->transaction_id, myAddr, outMsg.addr);
+> 						#endif
+> 						//while(call SendData.send(outMsg.addr, sizeof(DataMsg), &outMsg) == FAIL);
+> 						break;
+> 					case REPORT_REQUEST_MSG_TYPE:
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending REPORT_REQUEST message to %d, \r\n", myAddr, outMsg.addr);
+> 						//dbg(DBG_USR1, "%02x%02x %02x%02x %02x%02x %02x%02x\r\n", outMsg.data[0], outMsg.data[1], outMsg.data[2], outMsg.data[3], outMsg.data[4], outMsg.data[5], outMsg.data[6], outMsg.data[7]);
+> 						#endif
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending REPORT_REQUEST message to %d sizeof %d \r\n", myAddr, outMsg.addr, sizeof(ReportRequestMsg));
+> 						#endif
+> 						call SendReportRequest.send(outMsg.addr, sizeof(ReportRequestMsg), &outMsg);
+> 						break;
+> 					case REPORT_RESPONSE_NO_FORWARD_MSG_TYPE:
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending REPORT_RESPONSE NO FORWARD message to %d\r\n", myAddr, outMsg.addr);
+> 						#endif
+> 						#ifdef ONOFFATTACK
+> 						call SendReportNoForwardResponse.send(outMsg.addr, sizeof(ReportResponseNoForwardMsg), &outMsg);
+> 						#else
+> 						if (	(!call Attack.isNoResponder(myAddr)) || (isOff_onoff == 0)	)
+439,448c440,449
+< 							#else
+< 							if (	(!call Attack.isNoResponder(myAddr)) || (isOff_onoff == 0)	)
+< 								call SendReportNoForwardResponse.send(outMsg.addr, sizeof(ReportResponseNoForwardMsg), &outMsg);
+< 							#endif
+< 							break;
+< 						case REPORT_RESPONSE_FORWARD_MSG_TYPE:
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending REPORT_RESPONSE FORWARD message to %d\r\n", myAddr, outMsg.addr);
+< 							#endif
+< 							#ifdef ONOFFATTACK
+---
+> 						#endif
+> 						break;
+> 					case REPORT_RESPONSE_FORWARD_MSG_TYPE:
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending REPORT_RESPONSE FORWARD message to %d\r\n", myAddr, outMsg.addr);
+> 						#endif
+> 						#ifdef ONOFFATTACK
+> 						call SendReportForwardResponse.send(outMsg.addr, sizeof(ReportResponseForwardMsg), &outMsg);
+> 						#else
+> 						if (	(!call Attack.isNoResponder(myAddr)) || (isOff_onoff == 0)	)
+450,471c451,472
+< 							#else
+< 							if (	(!call Attack.isNoResponder(myAddr)) || (isOff_onoff == 0)	)
+< 								call SendReportForwardResponse.send(outMsg.addr, sizeof(ReportResponseForwardMsg), &outMsg);
+< 							#endif
+< 							break;
+< 						case END_TO_END_REPORT_RESPONSE_MSG_TYPE:
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending END TO END REPORT_RESPONSE message to %d\r\n", myAddr, outMsg.addr);
+< 							#endif
+< 							call SendEndToEndReportResponse.send(outMsg.addr, sizeof(EndToEndReportResponseMsg), &outMsg);
+< 							break;
+< 						case SPECIFIC_REPORT_REQUEST_MSG_TYPE:
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending SPECIFIC REPORT_REQUEST message to %d\r\n", myAddr, outMsg.addr);
+< 							#endif
+< 							call SendSpecificReportRequest.send(outMsg.addr, sizeof(SpecificReportRequestMsg), &outMsg);
+< 							break;
+< 						case SPECIFIC_REPORT_RESPONSE_MSG_TYPE:
+< 							#ifdef DEBUG
+< 							dbg(DBG_USR1, "%d sending SPECIFIC REPORT_RESPONSE message to %d\r\n", myAddr, outMsg.addr);
+< 							#endif
+< 							#ifdef ONOFFATTACK
+---
+> 						#endif
+> 						break;
+> 					case END_TO_END_REPORT_RESPONSE_MSG_TYPE:
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending END TO END REPORT_RESPONSE message to %d\r\n", myAddr, outMsg.addr);
+> 						#endif
+> 						call SendEndToEndReportResponse.send(outMsg.addr, sizeof(EndToEndReportResponseMsg), &outMsg);
+> 						break;
+> 					case SPECIFIC_REPORT_REQUEST_MSG_TYPE:
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending SPECIFIC REPORT_REQUEST message to %d\r\n", myAddr, outMsg.addr);
+> 						#endif
+> 						call SendSpecificReportRequest.send(outMsg.addr, sizeof(SpecificReportRequestMsg), &outMsg);
+> 						break;
+> 					case SPECIFIC_REPORT_RESPONSE_MSG_TYPE:
+> 						#ifdef DEBUG
+> 						dbg(DBG_USR1, "%d sending SPECIFIC REPORT_RESPONSE message to %d\r\n", myAddr, outMsg.addr);
+> 						#endif
+> 						#ifdef ONOFFATTACK
+> 						call SendSpecificReportResponse.send(outMsg.addr, sizeof(SpecificReportResponseMsg), &outMsg);
+> 						#else
+> 						if (	(!call Attack.isNoResponder(myAddr)) || (isOff_onoff == 0)	)
+473,494c474,487
+< 							#else
+< 							if (	(!call Attack.isNoResponder(myAddr)) || (isOff_onoff == 0)	)
+< 								call SendSpecificReportResponse.send(outMsg.addr, sizeof(SpecificReportResponseMsg), &outMsg);
+< 							#endif
+< 							#ifdef SARP04_DBG
+< 							dbg(DBG_USR3, "%d sending SPECIFIC REPORT_RESPONSE message to %d Type: %d\r\n", myAddr, outMsg.addr, outMsg.type);
+< 							#endif
+< 							break;
+< 						/* JRT */
+< 	         		case AM_NEIGHBORSTRUSTMSG:
+< 							call SendNeighborsTrust.send(outMsg.addr, sizeof(NeighborsTrustMsg), &outMsg);
+< 							break;
+< 			  			case AM_TRANSACTIONDATAMSG:
+< 			  				call SendTransaction.send(outMsg.addr, sizeof(TransactionDataMsg), &outMsg);
+< 			  				break;						
+< 						default:
+< 							break;
+< 						}
+< 						//if (++readOutQHere >= CIRCULAR_BUFFER_SIZE)
+< 						// readOutQHere = 0;
+< 						readOutQHere = (readOutQHere + 1) % CIRCULAR_BUFFER_SIZE;
+< 						numMsgOutQ = numMsgOutQ - 1;
+---
+> 						#endif
+> 						#ifdef SARP04_DBG
+> 						dbg(DBG_USR3, "%d sending SPECIFIC REPORT_RESPONSE message to %d Type: %d\r\n", myAddr, outMsg.addr, outMsg.type);
+> 						#endif
+> 						break;
+> 					/* JRT */
+>          			case AM_NEIGHBORSTRUSTMSG:
+> 						call SendNeighborsTrust.send(outMsg.addr, sizeof(NeighborsTrustMsg), &outMsg);
+> 						break;
+> 		  			case AM_TRANSACTIONDATAMSG:
+> 		  				call SendTransaction.send(outMsg.addr, sizeof(TransactionDataMsg), &outMsg);
+> 		  				break;						
+> 					default:
+> 						break;
+495a489,492
+> 					//if (++readOutQHere >= CIRCULAR_BUFFER_SIZE)
+> 					// readOutQHere = 0;
+> 					readOutQHere = (readOutQHere + 1) % CIRCULAR_BUFFER_SIZE;
+> 					numMsgOutQ = numMsgOutQ - 1;
+496a494
+> 				//}
+562c560
+< 		//StartMsg *tmp = (StartMsg*)masg->data;
+---
+> 		StartMsg *tmp = (StartMsg*)masg->data;
+726d723
+< 		#ifdef __REAL__MOTE__
+729d725
+< 		#endif
+2033,2034c2029,2030
+< //#ifdef PREDICTABILITY
+< //#ifdef __REAL__MOTE__
+---
+> #ifdef PREDICTABILITY
+> #ifdef __REAL__MOTE__
+2053,2054c2049,2050
+< //#endif
+< //#endif
+---
+> #endif
+> #endif
+2098d2093
+< 			return SUCCESS;
+2109,2110c2104
+<       post processOutMsg();
+< 		return SUCCESS;
+---
+>         post processOutMsg();	
+2156d2149
+< 		#ifdef DYNAMIC_FORGETTING
+2158d2150
+< 		#endif
+2262c2254
+< //#ifdef __REAL__MOTE__
+---
+> #ifdef __REAL__MOTE__
+2273c2265
+< //#endif
+---
+> #endif
+2414d2405
+< #ifdef DYNAMIC_FORGETTING
+2435d2425
+< #endif
+diff -d sarp-0.4-dev/Sarp.nc sarp-0.4-dev-jt/Sarp.nc
+87d86
+< #ifdef DYNAMIC_FORGETTING
+89d87
+< #endif
+119,120c117,118
+< //#ifdef PREDICTABILITY
+< //#ifdef __REAL__MOTE__
+---
+> #ifdef PREDICTABILITY
+> #ifdef __REAL__MOTE__
+125,126c123,124
+< //#endif
+< //#endif
+---
+> #endif
+> #endif

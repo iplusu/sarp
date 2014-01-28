@@ -1,0 +1,3 @@
+cp Makefile.telosb.noprorig Makefile
+make clean
+make telosb

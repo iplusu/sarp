@@ -1,0 +1,4 @@
+PLATFORMS=telos telosb
+cp Makefile.pc.nosarp Makefile
+make clean
+make telosb

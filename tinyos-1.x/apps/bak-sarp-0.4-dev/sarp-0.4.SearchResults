@@ -1,0 +1,116 @@
+---- transactionRecords Matches (112 in 3 files) ----
+SarpM.nc:  Transaction_Record_t transactionRecords[MAX_TRANSACTIONS];
+SarpM.nc:      thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, reportQ[readReportQHere]);
+SarpM.nc:          transactionFound = call TransactionTable.transactionExistsAlready(transactionRecords, dataMsgIn->transaction_id, myAddr);
+SarpM.nc:            call TransactionTable.initializeTransaction(transactionRecords, dataMsgIn->transaction_id, dataMsgIn->orig_node_id, dataMsgIn->src_node_id, myOneHopNeighbors, numOneHopNeighbors, myLevel, 0, myPeers, numPeers, myChildren, numChildren, myAddr);
+SarpM.nc:          thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, dataMsgIn->transaction_id);
+SarpM.nc:            if  ( ((call TransactionTable.isALoop(transactionRecords, dataMsgIn->transaction_id, dataMsgIn->src_node_id, dataMsgIn->sequenceNumber) == 1) && (call Attack.isLoopCreator(myAddr) != 1 ) )  || ( (lastToFindLoop == myAddr) && (cantFixIt == 0) ) || (cantFixIt == 1) )
+SarpM.nc:                  //thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, dataMsgIn->transaction_id);
+SarpM.nc:                    thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, dataMsgIn->transaction_id);
+SarpM.nc:                      newTransactionParent = call TransactionTable.getTransactionParent(transactionRecords, dataMsgIn->transaction_id);
+SarpM.nc:                //call Messaging.putDataMessageInOutQ(outQ, &writeOutQHere, CIRCULAR_BUFFER_SIZE, &numMsgOutQ, call TransactionTable.getTransactionParent(transactionRecords, dataMsgIn->transaction_id), myAddr, dataMsgIn->transaction_id, dataMsgIn->orig_node_id, dataMsgIn->data, lastToFindLoop, cantFixIt, dontSendTo);
+SarpM.nc:                  newTransactionParent = call TransactionTable.getTransactionParent(transactionRecords, dataMsgIn->transaction_id);
+SarpM.nc:          thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, reportReqMsgIn->transaction_id);
+SarpM.nc:            call TransactionTable.setOriginatorPacketCount(transactionRecords, reportReqMsgIn->transaction_id, reportReqMsgIn->originatorPacketCount);
+SarpM.nc:			dbg(DBG_USR3, "T-ID:%d Received Report Request Message from %d, and forward to %d\r\n", reportReqMsgIn->transaction_id, reportReqMsgIn->requestor, call TransactionTable.getTransactionParent(transactionRecords, reportReqMsgIn->transaction_id));
+SarpM.nc:            call Messaging.putReportRequestMsgInOutQ(outQ, &writeOutQHere, CIRCULAR_BUFFER_SIZE, &numMsgOutQ, call TransactionTable.getTransactionParent(transactionRecords, reportReqMsgIn->transaction_id), myAddr, reportReqMsgIn->originator, reportReqMsgIn->originatorPacketCount, reportReqMsgIn->transaction_id);
+SarpM.nc:            call TransactionTable.addToTransactionCheckQ(transactionsToCheckQ, &transactionRecords[transactionCounter], 0, 0, &writeTransactionCheckHere, CIRCULAR_BUFFER_SIZE, &numTransactionsToCheck);
+SarpM.nc:            reportQ[writeReportQHere] = transactionRecords[transactionCounter].transaction_id;
+SarpM.nc:            dbg(DBG_USR1, "%d, TRID: %d, RRID: %d\r\n", myAddr, transactionRecords[transactionCounter].transaction_id, reportRespNoForwardMsgIn->transaction_id);
+SarpM.nc:            if ( transactionRecords[transactionCounter].transaction_id == reportRespNoForwardMsgIn->transaction_id)
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReportedPacketsReceived = reportRespNoForwardMsgIn->packetsReceived;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReportedPacketsForwarded = reportRespNoForwardMsgIn->packetsForwarded;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo = reportRespNoForwardMsgIn->packetsForwardedTo;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReported = 1;
+SarpM.nc:              else if (reportRespNoForwardMsgIn->packetsReceivedFrom == transactionRecords[transactionCounter].packetsForwardedTo)
+SarpM.nc:                if (transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo != reportRespNoForwardMsgIn->responder)
+SarpM.nc:                  transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo = reportRespNoForwardMsgIn->responder;
+SarpM.nc:                transactionRecords[transactionCounter].twoHopReportedPacketsReceived = reportRespNoForwardMsgIn->packetsReceived;
+SarpM.nc:                transactionRecords[transactionCounter].twoHopReported = 1;
+SarpM.nc:              dbg(DBG_USR1, "%d, TRID: %d, RRID: %d\r\n", myAddr, transactionRecords[transactionCounter].transaction_id, reportForwardMsgIn->transaction_id);
+SarpM.nc:              if ( transactionRecords[transactionCounter].transaction_id == reportForwardMsgIn->transaction_id)
+SarpM.nc:                outQ[writeOutQHere].addr = transactionRecords[transactionCounter].receivedFrom;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReportedPacketsReceived = reportForwardMsgIn->packetsReceived;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReportedPacketsForwarded = reportForwardMsgIn->packetsForwarded;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo = reportForwardMsgIn->packetsForwardedTo;
+SarpM.nc:                transactionRecords[transactionCounter].oneHopReported = 1;
+SarpM.nc:        thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, endToEndRepRespMsgIn->transaction_id);
+SarpM.nc:          thisTransaction = call TransactionTable.getThisTransactionPtr(transactionRecords, specificReportReqMsgIn->transaction_id);
+SarpM.nc:				dbg(DBG_USR3, "TRANSACTION NUMBER:%d TRANSACTION ID:%d\r\n", transactionRecords[cnt].transaction_id, specificReportReqMsgIn->transaction_id);
+SarpM.nc:            if ( transactionRecords[transactionCounter].transaction_id == specificReportResponseMsgIn->transaction_id)
+SarpM.nc:                if (specificReportResponseMsgIn->responder == transactionRecords[transactionCounter].packetsForwardedTo)
+SarpM.nc:                  transactionRecords[transactionCounter].oneHopReportedPacketsReceived    = specificReportResponseMsgIn->packetsReceived;
+SarpM.nc:                  transactionRecords[transactionCounter].oneHopReportedPacketsForwarded   = specificReportResponseMsgIn->packetsForwarded;
+SarpM.nc:                  transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo = specificReportResponseMsgIn->packetsForwardedTo;
+SarpM.nc:                  transactionRecords[transactionCounter].oneHopReported = 1;
+SarpM.nc:                  call TransactionTable.addToTransactionCheckQ(transactionsToCheckQ, &transactionRecords[transactionCounter], 0, 0, &writeTransactionCheckHere, CIRCULAR_BUFFER_SIZE, &numTransactionsToCheck);
+SarpM.nc:                else if (specificReportResponseMsgIn->responder == transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo)
+SarpM.nc:                  if (transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo != specificReportResponseMsgIn->responder)
+SarpM.nc:                    transactionRecords[transactionCounter].oneHopReportedPacketsForwardedTo = specificReportResponseMsgIn->responder;
+SarpM.nc:                  transactionRecords[transactionCounter].twoHopReportedPacketsReceived = specificReportResponseMsgIn->packetsReceived;
+SarpM.nc:                  transactionRecords[transactionCounter].twoHopReported = 1;
+SarpM.nc:              else if (specificReportResponseMsgIn->originator == transactionRecords[transactionCounter].receivedFrom)
+SarpM.nc:          transactionFound = call TransactionTable.transactionExistsAlready(transactionRecords, TRANSACTION_ID, myAddr);
+SarpM.nc:            call TransactionTable.initializeTransaction(transactionRecords, TRANSACTION_ID, myAddr, NO_PARENT, myOneHopNeighbors, numOneHopNeighbors, myLevel, 1, myPeers, numPeers, myChildren, numChildren, myAddr);
+SarpM.nc:            call TransactionTable.incrementSequenceNumber(transactionRecords, TRANSACTION_ID);
+SarpM.nc:          call Messaging.putDataMessageInOutQ(outQ, &writeOutQHere, CIRCULAR_BUFFER_SIZE, &numMsgOutQ, call TransactionTable.getTransactionParent(transactionRecords, TRANSACTION_ID), myAddr, TRANSACTION_ID, myAddr, SAMPLE_DATA, lastToFindLoop, cantFixIt, dontSendTo, numDataMessagesInTrial);
+SarpM.nc:          tFoundHere = call TransactionTable.sendReportRequestForThisTransaction(transactionRecords, TRANSACTION_ID, outQ, &writeOutQHere, CIRCULAR_BUFFER_SIZE, &numMsgOutQ, myAddr);
+SarpM.nc:          call TransactionTable.addToTransactionCheckQ(transactionsToCheckQ, call TransactionTable.getThisTransactionPtr(transactionRecords, TRANSACTION_ID), 0, 0, &writeTransactionCheckHere, CIRCULAR_BUFFER_SIZE, &numTransactionsToCheck);
+TransactionTable.nc (interfaces):  command result_t initializeTransaction(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t originatingNode, uint16_t receivedFrom, Neighbor_Rec_withTrust_t *myOneHopNeighbors[], uint16_t numOneHopNeighbors, uint16_t myLevel, uint16_t isSource, Neighbor_Rec_withTrust_t *myPeers[], uint16_t numPeers, Neighbor_Rec_withTrust_t *myChildren[], uint16_t numChildren, uint16_t myAddr);
+TransactionTable.nc (interfaces):  command uint8_t transactionExistsAlready(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t myAddr);
+TransactionTable.nc (interfaces):  command void incrementSequenceNumber(Transaction_Record_t transactionRecords[], uint32_t transaction_id);
+TransactionTable.nc (interfaces):   command void setOriginatorPacketCount(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t packetCount);
+TransactionTable.nc (interfaces):   command uint16_t sendReportRequestForThisTransaction(Transaction_Record_t transactionRecords[], uint32_t transaction_id, TOS_Msg outQ[], uint16_t *writeOutQHere, uint16_t maxQSize, uint16_t *numMsgOutQ, uint16_t myAddr);
+TransactionTable.nc (interfaces):   command uint16_t isALoop(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t senderNow, uint16_t sequenceNumberIn);
+TransactionTableM.nc (modules):  command uint8_t TransactionTable.transactionExistsAlready(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t myAddr)
+TransactionTableM.nc (modules):      if ( transactionRecords[tLoopCounter].transaction_id == transaction_id)
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].packetsReceived ++;
+TransactionTableM.nc (modules):          transactionRecords[tLoopCounter].packetsForwarded ++;
+TransactionTableM.nc (modules):        dbg(DBG_USR1, "FOUND temp parent set to %d\r\n", transactionRecords[tLoopCounter].packetsForwardedTo);
+TransactionTableM.nc (modules):  command void TransactionTable.incrementSequenceNumber(Transaction_Record_t transactionRecords[], uint32_t transaction_id)
+TransactionTableM.nc (modules):      if ( transactionRecords[tLoopCounter].transaction_id == transaction_id)
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].sequenceNumber ++;
+TransactionTableM.nc (modules):  command result_t TransactionTable.initializeTransaction(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t originatingNode, uint16_t receivedFrom, Neighbor_Rec_withTrust_t *myOneHopNeighbors[], uint16_t numOneHopNeighbors, uint16_t myLevel, uint16_t isSource, Neighbor_Rec_withTrust_t *myPeers[], uint16_t numPeers, Neighbor_Rec_withTrust_t *myChildren[], uint16_t numChildren, uint16_t myAddr)
+TransactionTableM.nc (modules):      dbg(DBG_USR1, "reports isValid %d\r\n", transactionRecords[tLoopCounter].isValid);
+TransactionTableM.nc (modules):      if (transactionRecords[tLoopCounter].isValid == 1)
+TransactionTableM.nc (modules):        dbg(DBG_USR1, "reports transaction %x id VALID  -- IMPORTANT !!\r\n", transactionRecords[tLoopCounter].transaction_id);
+TransactionTableM.nc (modules):      if (transactionRecords[tLoopCounter].isValid == 0)
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].transaction_id = transaction_id;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].originatingNode = originatingNode;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].receivedFrom = receivedFrom;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].isValid = 1;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].sequenceNumber = 1;
+TransactionTableM.nc (modules):          transactionRecords[tLoopCounter].packetsReceived = 0;
+TransactionTableM.nc (modules):          transactionRecords[tLoopCounter].packetsReceived = 1;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].packetsForwarded = 1;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].oneHopReported = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].oneHopReportedPacketsReceived = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].oneHopReportedPacketsForwarded = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].oneHopReportedPacketsForwardedTo = NO_PARENT;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].twoHopReported = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].twoHopReportedPacketsReceived = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].processed = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].isALoop = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].lastParentTried = 255;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].numberPossibleOtherParents = 0;
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].numberPossibleOtherParentsTried = 0;
+TransactionTableM.nc (modules):          transactionRecords[tLoopCounter].possibleOtherParents[tnLoopCounter] = 0;
+TransactionTableM.nc (modules):          /*transactionRecords[transactionCounter].packetsForwardedTo = 255;*/
+TransactionTableM.nc (modules):          transactionRecords[tLoopCounter].packetsForwardedTo = 0;
+TransactionTableM.nc (modules):            transactionRecords[tLoopCounter].packetsForwardedTo = call Attack.ifLoopCreatorGetParent(myAddr);
+TransactionTableM.nc (modules):            transactionRecords[tLoopCounter].packetsForwardedTo = call NeighborTable.getNewTransactionParent(myOneHopNeighbors, numOneHopNeighbors, myLevel, myPeers, numPeers, myChildren, numChildren, transactionRecords[tLoopCounter].receivedFrom, 255, 255, myAddr);
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].originalPacketsForwardedTo = transactionRecords[tLoopCounter].packetsForwardedTo;
+TransactionTableM.nc (modules):  command void TransactionTable.setOriginatorPacketCount(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t packetCount)
+TransactionTableM.nc (modules):      if (transactionRecords[tLoopCounter].transaction_id == transaction_id)
+TransactionTableM.nc (modules):        transactionRecords[tLoopCounter].originatorPacketCount = packetCount;
+TransactionTableM.nc (modules):  command uint16_t TransactionTable.sendReportRequestForThisTransaction(Transaction_Record_t transactionRecords[], uint32_t transaction_id, TOS_Msg outQ[], uint16_t *writeOutQHere, uint16_t maxQSize, uint16_t *numMsgOutQ, uint16_t myAddr)
+TransactionTableM.nc (modules):        if (transactionRecords[tLoopCounter].transaction_id == transaction_id) // do we need this check ?
+TransactionTableM.nc (modules):		  //dbg(DBG_USR3, "T-ID:%d Received Report Request Message from %d, and forward to %d\r\n", reportReqMsgIn->transaction_id, reportReqMsgIn->requestor, call TransactionTable.getTransactionParent(transactionRecords, reportReqMsgIn->transaction_id));
+TransactionTableM.nc (modules):          call Messaging.putReportRequestMsgInOutQ(outQ, writeOutQHere, maxQSize, numMsgOutQ, transactionRecords[tLoopCounter].packetsForwardedTo, myAddr, myAddr, transactionRecords[tLoopCounter].packetsForwarded, transactionRecords[tLoopCounter].transaction_id);
+---- TRANSACTION NUMBER Matches (1 in 1 files) ----
+SarpM.nc:				dbg(DBG_USR3, "TRANSACTION NUMBER:%d TRANSACTION ID:%d\r\n", transactionRecords[cnt].transaction_id, specificReportReqMsgIn->transaction_id);
+---- initializeTransaction Matches (4 in 3 files) ----
+SarpM.nc:            call TransactionTable.initializeTransaction(transactionRecords, dataMsgIn->transaction_id, dataMsgIn->orig_node_id, dataMsgIn->src_node_id, myOneHopNeighbors, numOneHopNeighbors, myLevel, 0, myPeers, numPeers, myChildren, numChildren, myAddr);
+SarpM.nc:            call TransactionTable.initializeTransaction(transactionRecords, TRANSACTION_ID, myAddr, NO_PARENT, myOneHopNeighbors, numOneHopNeighbors, myLevel, 1, myPeers, numPeers, myChildren, numChildren, myAddr);
+TransactionTable.nc (interfaces):  command result_t initializeTransaction(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t originatingNode, uint16_t receivedFrom, Neighbor_Rec_withTrust_t *myOneHopNeighbors[], uint16_t numOneHopNeighbors, uint16_t myLevel, uint16_t isSource, Neighbor_Rec_withTrust_t *myPeers[], uint16_t numPeers, Neighbor_Rec_withTrust_t *myChildren[], uint16_t numChildren, uint16_t myAddr);
+TransactionTableM.nc (modules):  command result_t TransactionTable.initializeTransaction(Transaction_Record_t transactionRecords[], uint32_t transaction_id, uint16_t originatingNode, uint16_t receivedFrom, Neighbor_Rec_withTrust_t *myOneHopNeighbors[], uint16_t numOneHopNeighbors, uint16_t myLevel, uint16_t isSource, Neighbor_Rec_withTrust_t *myPeers[], uint16_t numPeers, Neighbor_Rec_withTrust_t *myChildren[], uint16_t numChildren, uint16_t myAddr, uint16_t tPointer)

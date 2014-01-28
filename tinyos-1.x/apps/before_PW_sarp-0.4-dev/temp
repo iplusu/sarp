@@ -1,0 +1,100 @@
+SIM: Random seed is 556190
+SIM: Time for mote 0 initialized to 38082250.
+SIM: Time for mote 1 initialized to 10120859.
+SIM: Time for mote 2 initialized to 37263375.
+SIM: Time for mote 3 initialized to 21753599.
+SIM: Time for mote 4 initialized to 30346479.
+SIM: Time for mote 5 initialized to 19160262.
+SIM: Time for mote 6 initialized to 33269876.
+SIM: Time for mote 7 initialized to 24362442.
+SIM: Time for mote 8 initialized to 10508673.
+1: transaction_id:                    40000
+1: originating Node:                  4
+1: receivedFrom:                      4
+1: isValid:                           1
+1: packetsReceived:                   10
+1: packetsForwarded:                  10
+1: packetsForwardedTo:                0
+1: oneHopReported:                    1
+1: oneHopReportedPacketsReceived:     1
+1: oneHopReportedPacketsForwarded:    1
+1: oneHopReportedPacketsForwardedTo:  0
+1: twoHopReported:                    0
+1: twoHopReportedPacketsReceived:     0
+4: transaction_id:                    40000
+4: originating Node:                  4
+4: receivedFrom:                      255
+4: isValid:                           1
+4: packetsReceived:                   9
+4: packetsForwarded:                  10
+4: packetsForwardedTo:                1
+4: oneHopReported:                    1
+4: oneHopReportedPacketsReceived:     10
+4: oneHopReportedPacketsForwarded:    10
+4: oneHopReportedPacketsForwardedTo:  0
+4: twoHopReported:                    1
+4: twoHopReportedPacketsReceived:     1
+4: START: 403
+4: [1] GPB:0 BPB:0 trustPR:0.500000
+4: ALLOC FINISH:452
+3: transaction_id:                    40001
+3: originating Node:                  4
+3: receivedFrom:                      4
+3: isValid:                           1
+3: packetsReceived:                   10
+3: packetsForwarded:                  10
+3: packetsForwardedTo:                0
+3: oneHopReported:                    1
+3: oneHopReportedPacketsReceived:     7
+3: oneHopReportedPacketsForwarded:    1
+3: oneHopReportedPacketsForwardedTo:  0
+3: twoHopReported:                    0
+3: twoHopReportedPacketsReceived:     0
+4: transaction_id:                    40001
+4: originating Node:                  4
+4: receivedFrom:                      255
+4: isValid:                           1
+4: packetsReceived:                   9
+4: packetsForwarded:                  10
+4: packetsForwardedTo:                3
+4: oneHopReported:                    1
+4: oneHopReportedPacketsReceived:     10
+4: oneHopReportedPacketsForwarded:    10
+4: oneHopReportedPacketsForwardedTo:  0
+4: twoHopReported:                    1
+4: twoHopReportedPacketsReceived:     7
+4: START: 403
+4: value:1.666667 exponent:2 returnValue:2.777778
+4: [3] FP-PREV:0.916667 FP-CURRENT:0.916667
+4: value:1.666667 exponent:2 returnValue:2.777778
+4: [3] RH-PREV:0.750000 RH-CURRENT:0.500000
+4: value:1.666667 exponent:2 returnValue:2.777778
+4: [3] FP-PREV:0.916667 FP-CURRENT:0.916667
+4: value:1.666667 exponent:2 returnValue:2.777778
+4: [3] RH-PREV:0.750000 RH-CURRENT:0.500000
+4: EVAL PRED FALSE: 415
+4: [3] GPB:0 BPB:1 trustPR:0.333333
+4: ALLOC FINISH:452
+0: transaction_id:                    40001
+0: originating Node:                  4
+0: receivedFrom:                      3
+0: isValid:                           0
+0: packetsReceived:                   7
+0: packetsForwarded:                  1
+0: packetsForwardedTo:                0
+0: oneHopReported:                    255
+0: oneHopReportedPacketsReceived:     0
+0: oneHopReportedPacketsForwarded:    0
+0: oneHopReportedPacketsForwardedTo:  255
+0: twoHopReported:                    0
+0: twoHopReportedPacketsReceived:     0
+3: transaction_id:                    40002
+3: originating Node:                  4
+3: receivedFrom:                      6
+3: isValid:                           1
+3: packetsReceived:                   10
+3: packetsForwarded:                  10
+3: packetsForwardedTo:                0
+3: oneHopReported:                    1
+3: oneHopReportedPacketsReceived:     10
+3: oneHopReportedPacketsF

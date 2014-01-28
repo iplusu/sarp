@@ -1,0 +1,2 @@
+cp Makefile.pc.debug Makefile
+make pc

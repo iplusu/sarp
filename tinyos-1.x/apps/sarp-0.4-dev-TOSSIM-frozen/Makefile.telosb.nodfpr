@@ -1,0 +1,4 @@
+PLATFORMS=telos telosb
+COMPONENT=Sarp
+PFLAGS=-I%T/lib/Counters -I%T/../apps/sarp-0.4-dev/includes -I%T/../apps/sarp-0.4-dev/modules -I%T/../apps/sarp-0.4-dev/interfaces -DONOFFATTACK -DSARP04 -DDEBUG -DNODFPR -D__REAL__MOTE__ -I%T/lib/Util
+include ../Makerules

@@ -1,0 +1,260 @@
+apps/sarp-0.3-dev/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.3-dev/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.3-dev/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.3-dev/.svn/entries:make_telosb
+apps/sarp-0.3-dev/.svn/entries:Makefile.telosb
+apps/sarp-0.3-dev/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.3-dev/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.3-dev/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.3-dev/README.txt:./make_telosb
+apps/sarp-0.3-dev/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.3-dev/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.3-dev/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.3-dev/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.3-dev/make_telosb:make telosb
+apps/sarp-0.1.5-frozen/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.1.5-frozen/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.1.5-frozen/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.1.5-frozen/.svn/entries:make_telosb
+apps/sarp-0.1.5-frozen/.svn/entries:Makefile.telosb
+apps/sarp-0.1.5-frozen/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.1.5-frozen/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.1.5-frozen/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.1.5-frozen/README.txt:./make_telosb
+apps/sarp-0.1.5-frozen/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.1.5-frozen/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.1.5-frozen/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.1.5-frozen/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.1.5-frozen/make_telosb:make telosb
+apps/sarp-0.3-dev - iplusu/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.3-dev - iplusu/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.3-dev - iplusu/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.3-dev - iplusu/.svn/entries:make_telosb
+apps/sarp-0.3-dev - iplusu/.svn/entries:Makefile.telosb
+apps/sarp-0.3-dev - iplusu/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.3-dev - iplusu/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.3-dev - iplusu/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.3-dev - iplusu/README.txt:./make_telosb
+apps/sarp-0.3-dev - iplusu/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.3-dev - iplusu/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.3-dev - iplusu/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.3-dev - iplusu/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.3-dev - iplusu/make_telosb:make telosb
+apps/sarp-0.1/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.1/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.1/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.1/.svn/entries:make_telosb
+apps/sarp-0.1/.svn/entries:Makefile.telosb
+apps/sarp-0.1/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.1/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.1/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.1/README.txt:./make_telosb
+apps/sarp-0.1/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.1/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.1/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.1/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.1/make_telosb:make telosb
+apps/ssarp-0.3-dev/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/ssarp-0.3-dev/.svn/text-base/make_telosb.svn-base:make telosb
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/ssarp-0.3-dev/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/ssarp-0.3-dev/.svn/entries:make_telosb
+apps/ssarp-0.3-dev/.svn/entries:Makefile.telosb
+apps/ssarp-0.3-dev/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/ssarp-0.3-dev/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/ssarp-0.3-dev/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/ssarp-0.3-dev/README.txt:./make_telosb
+apps/ssarp-0.3-dev/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/ssarp-0.3-dev/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/ssarp-0.3-dev/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/ssarp-0.3-dev/make_telosb:cp Makefile.telosb Makefile
+apps/ssarp-0.3-dev/make_telosb:make telosb
+apps/Pong/Makefile:PLATFORMS=telos telosb micaz 
+apps/sarp-0.4-dev/captures/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.4-dev/captures/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.4-dev/captures/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.4-dev/captures/README.txt:./make_telosb
+apps/sarp-0.4-dev/captures/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.4-dev/captures/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.4-dev/captures/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.4-dev/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.4-dev/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.4-dev/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.4-dev/.svn/entries:make_telosb
+apps/sarp-0.4-dev/.svn/entries:Makefile.telosb
+apps/sarp-0.4-dev/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.4-dev/make_telosb:make telosb
+apps/SurgeTelos/Makefile:PLATFORMS=telos telosa telosb
+apps/TestDripDrain/java/Makefile:PLATFORM = telosb
+apps/TelosADC/Makefile:PLATFORMS=telos telosb 
+apps/sarp-0.3-dev - 0.1/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.3-dev - 0.1/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.3-dev - 0.1/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.3-dev - 0.1/.svn/entries:make_telosb
+apps/sarp-0.3-dev - 0.1/.svn/entries:Makefile.telosb
+apps/sarp-0.3-dev - 0.1/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.3-dev - 0.1/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.3-dev - 0.1/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.3-dev - 0.1/README.txt:./make_telosb
+apps/sarp-0.3-dev - 0.1/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.3-dev - 0.1/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.3-dev - 0.1/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.3-dev - 0.1/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.3-dev - 0.1/make_telosb:make telosb
+apps/sarp-0.2-dev2/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.2-dev2/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.2-dev2/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.2-dev2/.svn/entries:   name="make_telosb"
+apps/sarp-0.2-dev2/.svn/entries:   name="Makefile.telosb"
+apps/sarp-0.2-dev2/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.2-dev2/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.2-dev2/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.2-dev2/README.txt:./make_telosb
+apps/sarp-0.2-dev2/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.2-dev2/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.2-dev2/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.2-dev2/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.2-dev2/make_telosb:make telosb
+apps/TelosPWM/Makefile:PLATFORMS=telos telosb 
+apps/sarp-0.2-dev/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/sarp-0.2-dev/.svn/text-base/make_telosb.svn-base:make telosb
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.2-dev/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.2-dev/.svn/entries:make_telosb
+apps/sarp-0.2-dev/.svn/entries:Makefile.telosb
+apps/sarp-0.2-dev/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/sarp-0.2-dev/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/sarp-0.2-dev/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/sarp-0.2-dev/README.txt:./make_telosb
+apps/sarp-0.2-dev/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/sarp-0.2-dev/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/sarp-0.2-dev/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/sarp-0.2-dev/make_telosb:cp Makefile.telosb Makefile
+apps/sarp-0.2-dev/make_telosb:make telosb
+apps/bak-sarp-0.4-dev/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/bak-sarp-0.4-dev/.svn/text-base/make_telosb.svn-base:make telosb
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/bak-sarp-0.4-dev/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/bak-sarp-0.4-dev/.svn/entries:make_telosb
+apps/bak-sarp-0.4-dev/.svn/entries:Makefile.telosb
+apps/bak-sarp-0.4-dev/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/bak-sarp-0.4-dev/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/bak-sarp-0.4-dev/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/bak-sarp-0.4-dev/README.txt:./make_telosb
+apps/bak-sarp-0.4-dev/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/bak-sarp-0.4-dev/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/bak-sarp-0.4-dev/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/bak-sarp-0.4-dev/make_telosb:cp Makefile.telosb Makefile
+apps/bak-sarp-0.4-dev/make_telosb:make telosb
+apps/before_PW_sarp-0.4-dev/.svn/text-base/make_telosb.svn-base:cp Makefile.telosb Makefile
+apps/before_PW_sarp-0.4-dev/.svn/text-base/make_telosb.svn-base:make telosb
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:only difference between the is the Makefile.telosb specifies one "define" on
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:We have created two executable script files, "make_pc" and "make_telosb",
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:./make_telosb
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:execute either "make pc" or "make telosb" and the application will build for
+apps/before_PW_sarp-0.4-dev/.svn/text-base/README.txt.svn-base:Should any more telosb-specific code be added to the code base, just be sure
+apps/before_PW_sarp-0.4-dev/.svn/entries:make_telosb
+apps/before_PW_sarp-0.4-dev/.svn/entries:Makefile.telosb
+apps/before_PW_sarp-0.4-dev/README.txt:There are two verions of the makefile, Makefile.pc amd Makefile.telosb.  The
+apps/before_PW_sarp-0.4-dev/README.txt:only difference between the is the Makefile.telosb specifies one "define" on
+apps/before_PW_sarp-0.4-dev/README.txt:We have created two executable script files, "make_pc" and "make_telosb",
+apps/before_PW_sarp-0.4-dev/README.txt:./make_telosb
+apps/before_PW_sarp-0.4-dev/README.txt:These files copy either Makefile.pc or Makefile.telosb to Makefile, and then
+apps/before_PW_sarp-0.4-dev/README.txt:execute either "make pc" or "make telosb" and the application will build for
+apps/before_PW_sarp-0.4-dev/README.txt:Should any more telosb-specific code be added to the code base, just be sure
+apps/before_PW_sarp-0.4-dev/make_telosb:cp Makefile.telosb Makefile
+apps/before_PW_sarp-0.4-dev/make_telosb:make telosb
+doc/tutorial/matlab.html:<p><b><font face="Courier New">connect('serial@COM1:telosb');<br>
+doc/tutorial/matlab.html:send(COMM.TOS_BCAST_ADDR, msg, serial@COM1:telosb, sf@localhost:9001, ...);</font></b></p>
+doc/changes-minor-releases.html:TOSBoot also provides on/off capability for telosb and tmote sky nodes
+doc/changes-minor-releases.html:for obtaining exclusive access of the I2C bus (in the case of telosb,
+doc/changes-minor-releases.html:The tools/make makefile system now has support for Telos Rev B (telosb vs telosa). 
+tools/java/net/tinyos/deluge/Makefile:DELUGE_PLATFORM=telosb
+tools/java/net/tinyos/drain/Makefile:PLATFORM = telosb
+tools/java/net/tinyos/drip/Makefile:PLATFORM = telosb
+tools/python/apps/Listen.py:  Listen.py telosb sf@localhost:9001
+tools/python/apps/PytosShell.py:# 1.  only a platform name, eg "pc" or "telosb"
+tools/python/apps/PytosShell.py:# 2.  a path to the build dir, eg. "../../TestRpc/build/telosb"
+tools/python/apps/Oscope.py:        python OscopeThreaded.py ~/tinyos-1.x/apps/Oscope/build/telosb serial@COM1:telos
+tools/python/apps/Oscope.py:        python OscopeThreaded.py telosb serial@COM1:telos
+tools/python/pytos/util/nescDecls.py:  3.  platform name, eg: pc or telosb
+tools/python/pytos/util/nescDecls.py:    testRpc = appTypes('/home/kamin/tinyos-1.x/contrib/hood/apps/TestRpc/build/telosb/nesc.xml')
+tools/make/Makedefaults:ifneq ($(filter mica2 mica2dot micaz telos telosa telosb tmote,$(GOALS)),)
+tools/make/telos.target:  TELOS_TARGET = telosb.target
+tools/make/pc/sim.extra:  ifeq ($(SIM),telosb)
+tools/make/pc/sim.extra:    CFLAGS += -I$(TOSDIR)/../beta/TOSSIM-CC2420 -I$(TOSDIR)/lib/CC2420Radio -I$(TOSDIR)/../beta/TOSSIM-CC2420/telosb
+tools/make/all.target:PLATFORMS ?= mica mica2 mica2dot telos telosb micaz pc
+tools/make/bnp.extra:      TARGETS := telosb
+tools/make/bnp.extra:  ifneq ($(filter telosb tmote,$(TARGETS)),)
+tools/make/bnp.extra:    BOOTLOADER ?= $(TOSBOOT_DIR)/telosb/main.ihex
+tools/make/telosb.target:#$Id: telosb.target,v 1.11 2005/07/12 02:54:27 jwhui Exp $
+tools/make/telosb.target:PLATFORM ?= telosb
+tools/make/telosb.target:MSP_BSL_FLAGS = --telosb
+tools/make/telosb.target:telosb: $(BUILD_DEPS)
+tools/src/mspgcc-pybsl/bsl.py:    0xf16c: F1x, #for telosb
+tools/src/mspgcc-pybsl/bsl.py:  --telosb              Implies options --swap-reset-test, --telos-i2c,
+tools/src/mspgcc-pybsl/bsl.py:  --tmote               Identical operation to --telosb
+tools/src/mspgcc-pybsl/bsl.py:	     "swap-reset-test", "telos-latch", "telos-i2c", "telos", "telosb",
+tools/src/mspgcc-pybsl/bsl.py:        elif o in ("--telosb", ):
+tos/lib/Deluge/TOSBoot/Makefile:ifeq ($(MAKECMDGOALS),telosb)
+tos/lib/Deluge/TOSBoot/Makefile:  CFLAGS += -Imsp430 -Istm25p -Itelosb -Ilib
+tos/platform/telosb/.platform:  %T/platform/telosb

@@ -1,0 +1,13 @@
+#!/bin/sh
+# kill any suspended asf (just resuming the card doesn't work)
+if ps ax | grep asf | grep -v grep | egrep ' TN? '; then
+  kill -9 `ps ax | grep asf | grep -v grep | cut -c1-6`
+fi
+# resume card if suspended after sleep
+if /sbin/cardctl status 0 | grep suspended; then
+  /sbin/cardctl resume 0
+fi
+asf 9001 /dev/ttyS3 57600 &
+CLASSPATH=/usr/local/lib/spy-tool.jar
+export CLASSPATH
+evm -Xprogress:3200 -XappName=$0 net.tinyos.task.spy.Tool

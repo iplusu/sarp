@@ -1,0 +1,4 @@
+PLATFORMS=telos telosb
+cp Makefile.pc.noprmodibh Makefile
+make clean
+make telosb

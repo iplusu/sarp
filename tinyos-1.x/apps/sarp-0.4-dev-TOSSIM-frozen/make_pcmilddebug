@@ -1,0 +1,3 @@
+cp Makefile.pc.milddebug Makefile
+make clean
+make pc

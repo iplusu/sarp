@@ -1,0 +1,3 @@
+COMPONENT=Sarp
+PFLAGS=-I%T/lib/Counters -I./includes -I./modules -I./interfaces -DDEBUG -DONOFFATTACK -DSARP04 -DPREDICTABILITY -DDYNAMIC_FORGETTING
+include ../Makerules

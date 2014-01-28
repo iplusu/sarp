@@ -1,0 +1,8 @@
+1) Failure transparent
+
+2)  Periodic ACK and reports
+  -- decision point -- do we continue with the current route
+  -- source node needs to know how the communication is going
+  -- peridic reports
+  -- maybe change transaction ID every time  a"REqiest for report" is issued.
+

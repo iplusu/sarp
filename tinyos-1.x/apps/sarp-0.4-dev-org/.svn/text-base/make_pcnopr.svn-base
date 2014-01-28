@@ -1,0 +1,3 @@
+cp Makefile.pc.nopr Makefile
+make clean
+make pc

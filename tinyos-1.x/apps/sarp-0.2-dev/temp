@@ -1,0 +1,2558 @@
+SIM: Random seed is 822525
+11: Timer 10 fired, counter: 1, num: 2880
+3: Timer 10 fired, counter: 1, num: 2880
+4: Timer 10 fired, counter: 1, num: 2880
+2: Timer 10 fired, counter: 1, num: 2880
+9: Timer 10 fired, counter: 1, num: 2880
+5: Timer 10 fired, counter: 1, num: 2880
+13: Timer 10 fired, counter: 1, num: 2880
+15: Timer 10 fired, counter: 1, num: 2880
+14: Timer 10 fired, counter: 1, num: 2880
+19: Timer 10 fired, counter: 1, num: 2880
+6: Timer 10 fired, counter: 1, num: 2880
+16: Timer 10 fired, counter: 1, num: 2880
+0: Timer 10 fired, counter: 1, num: 2880
+17: Timer 10 fired, counter: 1, num: 2880
+24: Timer 10 fired, counter: 1, num: 2880
+21: Timer 10 fired, counter: 1, num: 2880
+20: Timer 10 fired, counter: 1, num: 2880
+7: Timer 10 fired, counter: 1, num: 2880
+10: Timer 10 fired, counter: 1, num: 2880
+23: Timer 10 fired, counter: 1, num: 2880
+18: Timer 10 fired, counter: 1, num: 2880
+8: Timer 10 fired, counter: 1, num: 2880
+22: Timer 10 fired, counter: 1, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+8: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+8: did NOT find a loop
+7: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+7: did NOT find a loop
+12: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+12: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: FOUND A LOOP !
+13: is going to try to fix it
+13: reports 1 possible other parents
+13: is trying possible other parent number 0
+13: will try 14 instead of 8
+13: will now send to 14
+14: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+14: 14:6 chose 9:5 as its transaction parent, with a trust value of 1.000000
+14: did NOT find a loop
+9: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+9: 9:5 chose 4:4 as its transaction parent, with a trust value of 1.000000
+9: did NOT find a loop
+4: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+4: 4:4 chose 3:3 as its transaction parent, with a trust value of 1.000000
+4: did NOT find a loop
+1: Timer 10 fired, counter: 1, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 1, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+11: Timer 10 fired, counter: 2, num: 2880
+3: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+4: Timer 10 fired, counter: 2, num: 2880
+2: Timer 10 fired, counter: 2, num: 2880
+9: Timer 10 fired, counter: 2, num: 2880
+5: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+13: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+15: Timer 10 fired, counter: 2, num: 2880
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+14: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+19: Timer 10 fired, counter: 2, num: 2880
+6: Timer 10 fired, counter: 2, num: 2880
+16: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+0: Timer 10 fired, counter: 2, num: 2880
+17: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+24: Timer 10 fired, counter: 2, num: 2880
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+21: Timer 10 fired, counter: 2, num: 2880
+20: Timer 10 fired, counter: 2, num: 2880
+7: Timer 10 fired, counter: 2, num: 2880
+10: Timer 10 fired, counter: 2, num: 2880
+23: Timer 10 fired, counter: 2, num: 2880
+18: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+8: Timer 10 fired, counter: 2, num: 2880
+22: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+1: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 2, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+11: Timer 10 fired, counter: 3, num: 2880
+3: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+4: Timer 10 fired, counter: 3, num: 2880
+2: Timer 10 fired, counter: 3, num: 2880
+9: Timer 10 fired, counter: 3, num: 2880
+5: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+13: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+15: Timer 10 fired, counter: 3, num: 2880
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+14: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+19: Timer 10 fired, counter: 3, num: 2880
+6: Timer 10 fired, counter: 3, num: 2880
+16: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+0: Timer 10 fired, counter: 3, num: 2880
+17: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+24: Timer 10 fired, counter: 3, num: 2880
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+21: Timer 10 fired, counter: 3, num: 2880
+20: Timer 10 fired, counter: 3, num: 2880
+7: Timer 10 fired, counter: 3, num: 2880
+10: Timer 10 fired, counter: 3, num: 2880
+23: Timer 10 fired, counter: 3, num: 2880
+18: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+8: Timer 10 fired, counter: 3, num: 2880
+22: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+1: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 3, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+11: Timer 10 fired, counter: 4, num: 2880
+3: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+4: Timer 10 fired, counter: 4, num: 2880
+2: Timer 10 fired, counter: 4, num: 2880
+9: Timer 10 fired, counter: 4, num: 2880
+5: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+13: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+15: Timer 10 fired, counter: 4, num: 2880
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+14: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+19: Timer 10 fired, counter: 4, num: 2880
+6: Timer 10 fired, counter: 4, num: 2880
+16: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+0: Timer 10 fired, counter: 4, num: 2880
+17: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+24: Timer 10 fired, counter: 4, num: 2880
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+21: Timer 10 fired, counter: 4, num: 2880
+20: Timer 10 fired, counter: 4, num: 2880
+7: Timer 10 fired, counter: 4, num: 2880
+10: Timer 10 fired, counter: 4, num: 2880
+23: Timer 10 fired, counter: 4, num: 2880
+18: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+8: Timer 10 fired, counter: 4, num: 2880
+22: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+1: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 4, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: transaction_id:                    0x38270
+18: originating Node:                  0x17
+18: receivedFrom:                      0x17
+18: isValid:                           0x01
+18: packetsReceived:                   0x64
+18: packetsForwarded:                  0x64
+18: packetsForwardedTo:                0x0d
+18: oneHopReported:                    0x01
+18: oneHopReportedPacketsReceived:     0x65
+18: oneHopReportedPacketsForwarded:    0x65
+18: oneHopReportedPacketsForwardedTo:  0x0e
+18: twoHopReported:                    0x01
+18: twoHopReportedPacketsReceived:     0x64
+18: reports node: 13, GFBinc: 65, BFBinc: ffffffff
+18: reports BEFORE: Node: 13, GFB: 0, BFB: 0, trustFP: 1.000000
+18: reports AFTER: Node: 13, GFB: 101, BFB: -1, trustFP: 1.010000
+18: updated 13 trust to 1.010000
+23: transaction_id:                    0x38270
+23: originating Node:                  0x17
+23: receivedFrom:                      0xff
+23: isValid:                           0x01
+23: packetsReceived:                   0x63
+23: packetsForwarded:                  0x64
+23: packetsForwardedTo:                0x12
+23: oneHopReported:                    0x01
+23: oneHopReportedPacketsReceived:     0x64
+23: oneHopReportedPacketsForwarded:    0x64
+23: oneHopReportedPacketsForwardedTo:  0x0d
+23: twoHopReported:                    0x01
+23: twoHopReportedPacketsReceived:     0x65
+23: reports node: 18, GFBinc: 64, BFBinc: 0
+23: reports BEFORE: Node: 18, GFB: 0, BFB: 0, trustFP: 1.000000
+23: reports AFTER: Node: 18, GFB: 100, BFB: 0, trustFP: 1.000000
+23: updated 18 trust to 1.000000
+14: transaction_id:                    0x38270
+14: originating Node:                  0x17
+14: receivedFrom:                      0x0d
+14: isValid:                           0x01
+14: packetsReceived:                   0x64
+14: packetsForwarded:                  0x64
+14: packetsForwardedTo:                0x09
+14: oneHopReported:                    0x01
+14: oneHopReportedPacketsReceived:     0x63
+14: oneHopReportedPacketsForwarded:    0x63
+14: oneHopReportedPacketsForwardedTo:  0x04
+14: twoHopReported:                    0x01
+14: twoHopReportedPacketsReceived:     0x62
+14: reports node: 9, GFBinc: 63, BFBinc: 1
+14: reports BEFORE: Node: 9, GFB: 0, BFB: 0, trustFP: 1.000000
+14: reports AFTER: Node: 9, GFB: 99, BFB: 1, trustFP: 0.990000
+14: updated 9 trust to 0.990000
+13: transaction_id:                    0x38270
+13: originating Node:                  0x17
+13: receivedFrom:                      0x12
+13: isValid:                           0x01
+13: packetsReceived:                   0x65
+13: packetsForwarded:                  0x65
+13: packetsForwardedTo:                0x0e
+13: oneHopReported:                    0x01
+13: oneHopReportedPacketsReceived:     0x64
+13: oneHopReportedPacketsForwarded:    0x64
+13: oneHopReportedPacketsForwardedTo:  0x09
+13: twoHopReported:                    0x01
+13: twoHopReportedPacketsReceived:     0x63
+13: reports node: 14, GFBinc: 64, BFBinc: 1
+13: reports BEFORE: Node: 14, GFB: 0, BFB: 0, trustFP: 1.000000
+13: reports AFTER: Node: 14, GFB: 100, BFB: 1, trustFP: 0.990099
+13: updated 14 trust to 0.990099
+11: Timer 10 fired, counter: 5, num: 2880
+3: Timer 10 fired, counter: 5, num: 2880
+4: Timer 10 fired, counter: 5, num: 2880
+2: Timer 10 fired, counter: 5, num: 2880
+9: Timer 10 fired, counter: 5, num: 2880
+5: Timer 10 fired, counter: 5, num: 2880
+13: Timer 10 fired, counter: 5, num: 2880
+15: Timer 10 fired, counter: 5, num: 2880
+14: Timer 10 fired, counter: 5, num: 2880
+19: Timer 10 fired, counter: 5, num: 2880
+6: Timer 10 fired, counter: 5, num: 2880
+16: Timer 10 fired, counter: 5, num: 2880
+0: Timer 10 fired, counter: 5, num: 2880
+17: Timer 10 fired, counter: 5, num: 2880
+24: Timer 10 fired, counter: 5, num: 2880
+21: Timer 10 fired, counter: 5, num: 2880
+20: Timer 10 fired, counter: 5, num: 2880
+7: Timer 10 fired, counter: 5, num: 2880
+10: Timer 10 fired, counter: 5, num: 2880
+23: Timer 10 fired, counter: 5, num: 2880
+18: Timer 10 fired, counter: 5, num: 2880
+8: Timer 10 fired, counter: 5, num: 2880
+22: Timer 10 fired, counter: 5, num: 2880
+1: Timer 10 fired, counter: 5, num: 2880
+12: Timer 10 fired, counter: 5, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+8: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+8: did NOT find a loop
+7: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+7: did NOT find a loop
+12: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+12: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: FOUND A LOOP !
+13: is going to try to fix it
+13: reports 1 possible other parents
+13: is trying possible other parent number 0
+13: will try 14 instead of 8
+13: will now send to 14
+14: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+14: 14:6 chose 9:5 as its transaction parent, with a trust value of 0.990000
+14: did NOT find a loop
+9: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+9: 9:5 chose 4:4 as its transaction parent, with a trust value of 1.000000
+9: did NOT find a loop
+4: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+4: 4:4 chose 3:3 as its transaction parent, with a trust value of 1.000000
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+11: Timer 10 fired, counter: 6, num: 2880
+3: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+4: Timer 10 fired, counter: 6, num: 2880
+2: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+9: Timer 10 fired, counter: 6, num: 2880
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+5: Timer 10 fired, counter: 6, num: 2880
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+9: transaction_id:                    0x38270
+9: originating Node:                  0x17
+9: receivedFrom:                      0x0e
+9: isValid:                           0x01
+9: packetsReceived:                   0x63
+9: packetsForwarded:                  0x63
+9: packetsForwardedTo:                0x04
+9: oneHopReported:                    0x01
+9: oneHopReportedPacketsReceived:     0x62
+9: oneHopReportedPacketsForwarded:    0x62
+9: oneHopReportedPacketsForwardedTo:  0x03
+9: twoHopReported:                    0xff
+9: twoHopReportedPacketsReceived:     0x00
+9: reports node: 4, GFBinc: 62, BFBinc: 1
+9: reports BEFORE: Node: 4, GFB: 0, BFB: 0, trustFP: 1.000000
+9: reports AFTER: Node: 4, GFB: 98, BFB: 1, trustFP: 0.989899
+9: updated 4 trust to 0.989899
+13: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+15: Timer 10 fired, counter: 6, num: 2880
+14: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+19: Timer 10 fired, counter: 6, num: 2880
+6: Timer 10 fired, counter: 6, num: 2880
+16: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+0: Timer 10 fired, counter: 6, num: 2880
+17: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+24: Timer 10 fired, counter: 6, num: 2880
+21: Timer 10 fired, counter: 6, num: 2880
+20: Timer 10 fired, counter: 6, num: 2880
+7: Timer 10 fired, counter: 6, num: 2880
+10: Timer 10 fired, counter: 6, num: 2880
+23: Timer 10 fired, counter: 6, num: 2880
+18: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+8: Timer 10 fired, counter: 6, num: 2880
+22: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+1: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 6, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+11: Timer 10 fired, counter: 7, num: 2880
+3: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+4: Timer 10 fired, counter: 7, num: 2880
+2: Timer 10 fired, counter: 7, num: 2880
+9: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+5: Timer 10 fired, counter: 7, num: 2880
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+13: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+15: Timer 10 fired, counter: 7, num: 2880
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+14: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+19: Timer 10 fired, counter: 7, num: 2880
+6: Timer 10 fired, counter: 7, num: 2880
+16: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+0: Timer 10 fired, counter: 7, num: 2880
+17: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+24: Timer 10 fired, counter: 7, num: 2880
+21: Timer 10 fired, counter: 7, num: 2880
+20: Timer 10 fired, counter: 7, num: 2880
+7: Timer 10 fired, counter: 7, num: 2880
+10: Timer 10 fired, counter: 7, num: 2880
+23: Timer 10 fired, counter: 7, num: 2880
+18: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+8: Timer 10 fired, counter: 7, num: 2880
+22: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+1: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 7, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+4: transaction_id:                    0x38270
+4: originating Node:                  0x17
+4: receivedFrom:                      0x09
+4: isValid:                           0x01
+4: packetsReceived:                   0x62
+4: packetsForwarded:                  0x62
+4: packetsForwardedTo:                0x03
+4: oneHopReported:                    0xff
+4: oneHopReportedPacketsReceived:     0x00
+4: oneHopReportedPacketsForwarded:    0x00
+4: oneHopReportedPacketsForwardedTo:  0xff
+4: twoHopReported:                    0xff
+4: twoHopReportedPacketsReceived:     0x00
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+11: Timer 10 fired, counter: 8, num: 2880
+3: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+4: Timer 10 fired, counter: 8, num: 2880
+2: Timer 10 fired, counter: 8, num: 2880
+9: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+5: Timer 10 fired, counter: 8, num: 2880
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+13: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+15: Timer 10 fired, counter: 8, num: 2880
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+14: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+19: Timer 10 fired, counter: 8, num: 2880
+6: Timer 10 fired, counter: 8, num: 2880
+16: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+0: Timer 10 fired, counter: 8, num: 2880
+17: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+24: Timer 10 fired, counter: 8, num: 2880
+21: Timer 10 fired, counter: 8, num: 2880
+20: Timer 10 fired, counter: 8, num: 2880
+7: Timer 10 fired, counter: 8, num: 2880
+10: Timer 10 fired, counter: 8, num: 2880
+23: Timer 10 fired, counter: 8, num: 2880
+18: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+8: Timer 10 fired, counter: 8, num: 2880
+22: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+1: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+12: Timer 10 fired, counter: 8, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+14: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+14: did NOT find a loop
+9: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+9: did NOT find a loop
+4: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+4: did NOT find a loop
+18: transaction_id:                    0x38271
+18: originating Node:                  0x17
+18: receivedFrom:                      0x17
+18: isValid:                           0x01
+18: packetsReceived:                   0x64
+18: packetsForwarded:                  0x64
+18: packetsForwardedTo:                0x0d
+18: oneHopReported:                    0x01
+18: oneHopReportedPacketsReceived:     0x64
+18: oneHopReportedPacketsForwarded:    0x64
+18: oneHopReportedPacketsForwardedTo:  0x0e
+18: twoHopReported:                    0x01
+18: twoHopReportedPacketsReceived:     0x63
+18: reports node: 13, GFBinc: 64, BFBinc: 0
+18: reports BEFORE: Node: 13, GFB: 101, BFB: -1, trustFP: 1.010000
+18: reports AFTER: Node: 13, GFB: 180, BFB: -429496833, trustFP: 0.000000
+18: updated 13 trust to 0.000000
+11: Timer 10 fired, counter: 9, num: 2880
+3: Timer 10 fired, counter: 9, num: 2880
+23: transaction_id:                    0x38271
+23: originating Node:                  0x17
+23: receivedFrom:                      0xff
+23: isValid:                           0x01
+23: packetsReceived:                   0x63
+23: packetsForwarded:                  0x64
+23: packetsForwardedTo:                0x12
+23: oneHopReported:                    0x01
+23: oneHopReportedPacketsReceived:     0x64
+23: oneHopReportedPacketsForwarded:    0x64
+23: oneHopReportedPacketsForwardedTo:  0x0d
+23: twoHopReported:                    0x01
+23: twoHopReportedPacketsReceived:     0x64
+23: reports node: 18, GFBinc: 64, BFBinc: 0
+23: reports BEFORE: Node: 18, GFB: 100, BFB: 0, trustFP: 1.000000
+23: reports AFTER: Node: 18, GFB: 180, BFB: 0, trustFP: 1.000000
+23: updated 18 trust to 1.000000
+4: Timer 10 fired, counter: 9, num: 2880
+2: Timer 10 fired, counter: 9, num: 2880
+13: transaction_id:                    0x38271
+13: originating Node:                  0x17
+13: receivedFrom:                      0x12
+13: isValid:                           0x01
+13: packetsReceived:                   0x64
+13: packetsForwarded:                  0x64
+13: packetsForwardedTo:                0x0e
+13: oneHopReported:                    0x01
+13: oneHopReportedPacketsReceived:     0x63
+13: oneHopReportedPacketsForwarded:    0x63
+13: oneHopReportedPacketsForwardedTo:  0x09
+13: twoHopReported:                    0x01
+13: twoHopReportedPacketsReceived:     0x62
+13: reports node: 14, GFBinc: 63, BFBinc: 1
+13: reports BEFORE: Node: 14, GFB: 100, BFB: 1, trustFP: 0.990099
+13: reports AFTER: Node: 14, GFB: 179, BFB: 1, trustFP: 0.994444
+13: updated 14 trust to 0.994444
+9: Timer 10 fired, counter: 9, num: 2880
+5: Timer 10 fired, counter: 9, num: 2880
+13: Timer 10 fired, counter: 9, num: 2880
+15: Timer 10 fired, counter: 9, num: 2880
+14: Timer 10 fired, counter: 9, num: 2880
+19: Timer 10 fired, counter: 9, num: 2880
+6: Timer 10 fired, counter: 9, num: 2880
+16: Timer 10 fired, counter: 9, num: 2880
+0: Timer 10 fired, counter: 9, num: 2880
+17: Timer 10 fired, counter: 9, num: 2880
+24: Timer 10 fired, counter: 9, num: 2880
+14: transaction_id:                    0x38271
+14: originating Node:                  0x17
+14: receivedFrom:                      0x0d
+14: isValid:                           0x01
+14: packetsReceived:                   0x63
+14: packetsForwarded:                  0x63
+14: packetsForwardedTo:                0x09
+14: oneHopReported:                    0x01
+14: oneHopReportedPacketsReceived:     0x62
+14: oneHopReportedPacketsForwarded:    0x62
+14: oneHopReportedPacketsForwardedTo:  0x04
+14: twoHopReported:                    0x01
+14: twoHopReportedPacketsReceived:     0x61
+14: reports node: 9, GFBinc: 62, BFBinc: 1
+14: reports BEFORE: Node: 9, GFB: 99, BFB: 1, trustFP: 0.990000
+14: reports AFTER: Node: 9, GFB: 177, BFB: 1, trustFP: 0.994382
+14: updated 9 trust to 0.994382
+21: Timer 10 fired, counter: 9, num: 2880
+20: Timer 10 fired, counter: 9, num: 2880
+7: Timer 10 fired, counter: 9, num: 2880
+10: Timer 10 fired, counter: 9, num: 2880
+23: Timer 10 fired, counter: 9, num: 2880
+18: Timer 10 fired, counter: 9, num: 2880
+8: Timer 10 fired, counter: 9, num: 2880
+22: Timer 10 fired, counter: 9, num: 2880
+1: Timer 10 fired, counter: 9, num: 2880
+12: Timer 10 fired, counter: 9, num: 2880
+18: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+18: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: did NOT find a loop
+8: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+8: did NOT find a loop
+7: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+7: did NOT find a loop
+12: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+12: did NOT find a loop
+13: reports lastToFindLoop: 255, cantFixIt: 255, dontSendTo: 255
+13: FOUND A LOOP !
+13: is going to try to fix it
+13: reports 1 possible other parents
+13: is trying possible other parent number 0
+13: will try 14 instead of 8
+13: will now send to 14
+14: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+14: 14:6 chose 9:5 as its transaction parent, with a trust value of 0.994382
+14: did NOT find a loop
+9: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+9: 9:5 chose 8:4 as its transaction parent, with a trust value of 1.000000
+9: did NOT find a loop
+8: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+8: did NOT find a loop
+7: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+7: did NOT find a loop
+12: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+12: did NOT find a loop
+13: reports lastToFindLoop: 13, cantFixIt: 0, dontSendTo: 8
+13: FOUND A LOOP !
+13: can't fit it either !
+13: will now send to 14
+14: reports lastToFindLoop: 13, cantFixIt: 1, dontSendTo: 14
+14: FOUND A LOOP !
+14: is going to try to fix it
+14: reports 1 possible other parents
+14: is trying possible other parent number 0
+14: will try 19 instead of 9
+14: will now send to 19
+19: reports lastToFindLoop: 14, cantFixIt: 0, dontSendTo: 9
+19: 19:7 chose 18:6 as its transaction parent, with a trust value of 1.000000
+19: did NOT find a loop
+18: reports lastToFindLoop: 14, cantFixIt: 0, dontSendTo: 9
+18: FOUND A LOOP !
+18: will now send to 13
+13: reports lastToFindLoop: 14, cantFixIt: 0, dontSendTo: 9
+13: did NOT find a loop
+14: reports lastToFindLoop: 14, cantFixIt: 0, dontSendTo: 9
+14: FOUND A LOOP !
+14: can't fit it either !
+14: will now send to 19
+19: reports lastToFindLoop: 14, cantFixIt: 1, dontSendTo: 19
+19: FOUND A LOOP !
+19: is going to try to fix it
+19: reports 1 possible other parents
+19: is trying possible other parent number 0
+19: will try 24 instead of 18
+19: will now send to 24
+24: reports lastToFindLoop: 19, cantFixIt: 0, dontSendTo: 18
+24: 24:8 chose 23:7 as its transaction parent, with a trust value of 1.000000
+24: did NOT find a loop
+23: reports lastToFindLoop: 19, cantFixIt: 0, dontSendTo: 18
+23: FOUND A LOOP !
+23: will now send to 0
+11: Timer 10 fired, counter: 10, num: 2880
+3: Timer 10 fired, counter: 10, num: 2880
+4: Timer 10 fired, counter: 10, num: 2880
+2: Timer 10 fired, counter: 10, num: 2880
+9: Timer 10 fired, counter: 10, num: 2880
+5: Timer 10 fired, counter: 10, num: 2880
+13: Timer 10 fired, counter: 10, num: 2880
+15: Timer 10 fired, counter: 10, num: 2880
+14: Timer 10 fired, counter: 10, num: 2880
+19: Timer 10 fired, counter: 10, num: 2880
+6: Timer 10 fired, counter: 10, num: 2880
+16: Timer 10 fired, counter: 10, num: 2880
+0: Timer 10 fired, counter: 10, num: 2880
+17: Timer 10 fired, counter: 10, num: 2880
+24: Timer 10 fired, counter: 10, num: 2880
+21: Timer 10 fired, counter: 10, num: 2880
+20: Timer 10 fired, counter: 10, num: 2880
+7: Timer 10 fired, counter: 10, num: 2880
+10: Timer 10 fired, counter: 10, num: 2880
+23: Timer 10 fired, counter: 10, num: 2880
+18: Timer 10 fired, counter: 10, num: 2880
+8: Timer 10 fired, counter: 10, num: 2880
+22: Timer 10 fired, counter: 10, num: 2880
+1: Timer 10 fired, counter: 10, num: 2880
+12: Timer 10 fired, counter: 10, num: 2880
+11: Timer 10 fired, counter: 11, num: 2880
+3: Timer 10 fired, counter: 11, num: 2880
+4: Timer 10 fired, counter: 11, num: 2880
+2: Timer 10 fired, counter: 11, num: 2880
+9: Timer 10 fired, counter: 11, num: 2880
+5: Timer 10 fired, counter: 11, num: 2880
+13: Timer 10 fired, counter: 11, num: 2880
+15: Timer 10 fired, counter: 11, num: 2880
+14: Timer 10 fired, counter: 11, num: 2880
+19: Timer 10 fired, counter: 11, num: 2880
+6: Timer 10 fired, counter: 11, num: 2880
+16: Timer 10 fired, counter: 11, num: 2880
+0: Timer 10 fired, counter: 11, num: 2880
+17: Timer 10 fired, counter: 11, num: 2880
+24: Timer 10 fired, counter: 11, num: 2880
+21: Timer 10 fired, counter: 11, num: 2880
+20: Timer 10 fired, counter: 11, num: 2880
+7: Timer 10 fired, counter: 11, num: 2880
+10: Timer 10 fired, counter: 11, num: 2880
+23: Timer 10 fired, counter: 11, num: 2880
+18: Timer 10 fired, counter: 11, num: 2880
+8: Timer 10 fired, counter: 11, num: 2880
+22: Timer 10 fired, counter: 11, num: 2880
+1: Timer 10 fired, counter: 11, num: 2880
+12: Timer 10 fired, counter: 11, num: 2880
+11: Timer 10 fired, counter: 12, num: 2880
+3: Timer 10 fired, counter: 12, num: 2880
+4: Timer 10 fired, counter: 12, num: 2880
+2: Timer 10 fired, counter: 12, num: 2880
+9: Timer 10 fired, counter: 12, num: 2880
+5: Timer 10 fired, counter: 12, num: 2880
+13: Timer 10 fired, counter: 12, num: 2880
+15: Timer 10 fired, counter: 12, num: 2880
+14: Timer 10 fired, counter: 12, num: 2880
+19: Timer 10 fired, counter: 12, num: 2880
+6: Timer 10 fired, counter: 12, num: 2880
+16: Timer 10 fired, counter: 12, num: 2880
+0: Timer 10 fired, counter: 12, num: 2880
+17: Timer 10 fired, counter: 12, num: 2880
+24: Timer 10 fired, counter: 12, num: 2880
+21: Timer 10 fired, counter: 12, num: 2880
+20: Timer 10 fired, counter: 12, num: 2880
+7: Timer 10 fired, counter: 12, num: 2880
+10: Timer 10 fired, counter: 12, num: 2880
+23: Timer 10 fired, counter: 12, num: 2880
+18: Timer 10 fired, counter: 12, num: 2880
+8: Timer 10 fired, counter: 12, num: 2880
+22: Timer 10 fired, counter: 12, num: 2880
+1: Timer 10 fired, counter: 12, num: 2880
+12: Timer 10 fired, counter: 12, num: 2880
+11: Timer 10 fired, counter: 13, num: 2880
+3: Timer 10 fired, counter: 13, num: 2880
+4: Timer 10 fired, counter: 13, num: 2880
+2: Timer 10 fired, counter: 13, num: 2880
+9: Timer 10 fired, counter: 13, num: 2880
+5: Timer 10 fired, counter: 13, num: 2880
+13: Timer 10 fired, counter: 13, num: 2880
+15: Timer 10 fired, counter: 13, num: 2880
+14: Timer 10 fired, counter: 13, num: 2880
+19: Timer 10 fired, counter: 13, num: 2880
+6: Timer 10 fired, counter: 13, num: 2880
+16: Timer 10 fired, counter: 13, num: 2880
+0: Timer 10 fired, counter: 13, num: 2880
+17: Timer 10 fired,

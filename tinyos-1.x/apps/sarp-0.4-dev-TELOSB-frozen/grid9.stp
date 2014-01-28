@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<sarp>
+<nss path="/opt/tinyos-1.x/apps/sarp-0.3-dev/nss/grid_9_motes.nss"/>
+<tg target="4"/>
+<sf den="10" num="1" target="1" victim="4"/>
+<sf den="10" num="7" target="3" victim="4"/>
+</sarp>

@@ -1,0 +1,3 @@
+COMPONENT=Sarp
+PFLAGS=-I%T/lib/Counters -I%T/interfaces -I%T/../apps/mod_sarp/includes -I%T/../apps/mod_sarp/modules -I%T/../apps/mod_sarp/interfaces -DIS_ROOT
+include ../Makerules

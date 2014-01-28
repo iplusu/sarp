@@ -1,0 +1,3 @@
+---- TRUST_GFB_START Matches (2 in 2 files) ----
+NeighborTableH.h (includes):  TRUST_GFB_START                     = 0,
+NeighborTableM.nc (modules):				neighbors[*numNeighbors].trust.GFB = TRUST_GFB_START;

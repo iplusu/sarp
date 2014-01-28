@@ -1,0 +1,40 @@
+// This is a comment
+
+
+includes IntMsg;
+includes AM;
+includes TimeSync;
+includes TimeSyncMsg;
+includes ColorMsg;
+
+configuration  Coloring {
+}
+implementation {
+  components Main, SimpleTime, TimerC, SingleTimer, IntToLeds, ColoringM, GenericComm as Comm, UARTComm as UComm, LedsC, CC2420RadioC;
+  Main.StdControl -> IntToLeds.StdControl;
+  Main.StdControl -> ColoringM.StdControl;
+  Main.StdControl -> SingleTimer.StdControl;
+  Main.StdControl -> CC2420RadioC.StdControl;
+  ColoringM.CC2420Control -> CC2420RadioC.CC2420Control;
+  ColoringM.CommControl ->UComm;
+  ColoringM.IntOutput -> IntToLeds.IntOutput;
+  ColoringM.SendDisc -> Comm.SendMsg[DISCOVERY_MSG_TYPE];
+  ColoringM.SendUDisc -> UComm.SendMsg[DISCOVERY_MSG_TYPE];
+  ColoringM.SendReady -> Comm.SendMsg[READY_MSG_TYPE];
+  ColoringM.SendReadyAck -> Comm.SendMsg[READY_ACK_MSG_TYPE];
+  ColoringM.SendUReady -> UComm.SendMsg[READY_MSG_TYPE];
+  ColoringM.SendStart -> Comm.SendMsg[START_MSG];
+  ColoringM.Receive -> Comm.ReceiveMsg[DISCOVERY_MSG_TYPE];
+  ColoringM.Receive -> Comm.ReceiveMsg[READY_MSG_TYPE];
+  ColoringM.Receive -> Comm.ReceiveMsg[START_MSG];
+  ColoringM.SubControl -> Comm;
+  ColoringM.Timer1 -> TimerC.Timer[unique ("Timer")];
+  ColoringM.Timer2 -> TimerC.Timer[unique ("Timer")];
+  ColoringM.Timer3 -> TimerC.Timer[unique ("Timer")];
+  ColoringM.Timer4 -> TimerC.Timer[unique ("Timer")];
+  ColoringM.Timer5 -> TimerC.Timer[unique ("Timer")];
+  ColoringM.Leds -> LedsC;
+  ColoringM.Time -> SimpleTime;
+  ColoringM.TimeSet -> SimpleTime;
+}
+

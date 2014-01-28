@@ -1,0 +1,761 @@
+#define CIRCULAR_BUFFER_SIZE            32
+#define NO_COLOR                        0
+#define NO_LEVEL                        255
+#define NO_PARENT                       255
+#define NO_NEIGHBOR                     255
+#define ROOT_ADDR                       0
+#define MAX_CHILDREN                    32
+#define TOS_DATA_LENGTH                 29
+
+includes IntMsg;
+includes AM;
+includes ColorMsg;
+//includes TimeSyncMsg
+includes TosTime;
+
+
+module ColoringM{
+  provides {
+    interface StdControl;
+  }
+  uses {
+    interface IntOutput;
+    interface SendMsg as SendDisc;
+    interface SendMsg as SendUDisc;
+    interface SendMsg as SendReady;
+    interface SendMsg as SendReadyAck;
+    interface SendMsg as SendUReady;
+    interface SendMsg as SendStart;
+    interface StdControl as SubControl;
+    interface StdControl as CommControl;
+    interface ReceiveMsg as Receive;
+    interface Timer as Timer1;          /* Posts a startDiscovery task                          */
+    interface Timer as Timer2;          /* Sends Ready Messages, controls LEDs                  */
+    interface Timer as Timer3;          /* Stops sending Discovery Messages                     */
+    interface Timer as Timer4;          /* Puts a Start Message in the outQ                     */
+    interface Timer as Timer5;          /* Sends an end-of-test Ready Message out of the UART   */
+    interface Time;
+    interface Leds;
+    interface TimeSet;
+  }
+}
+
+implementation {
+  uint32_t heardFrom = 0;
+  uint8_t myState, readySent;
+  uint8_t myAddr, myColor, myLevel, maxOneHopColor, maxTwoHopColor, numOneHopNeighbors, numTwoHopNeighbors, srcAddr, timerOneIndex, numGrantsReceived, grantee;
+  uint8_t index, dindex, outIndex;
+  uint16_t randomNum;
+  bool OkToStart = TRUE;
+
+  // Message holders
+  TOS_Msg inQ[CIRCULAR_BUFFER_SIZE], outQ[CIRCULAR_BUFFER_SIZE], *tempTOS, *inMsg, outMsg;
+  uint8_t readInQHere, writeInQHere, readOutQHere, writeOutQHere;
+  int numMsgInQ = 0, numMsgOutQ = 0;
+
+   /*
+    TOS Message has:
+
+        OTA
+        ---
+        - uint16_t  addr
+        -  uint8_t  type
+        -  uint8_t  group
+        -   int8_t  data[29]
+        - uint16_t  crc
+
+        INTERNAL
+        -------
+        - uint16_t  strength
+        - uint8_t   ack
+        - uint16_t  time
+        - uint8_t   sendSecurityMode
+        - uint8_t   receiveSecurityMode  
+    */
+
+
+  TOS_Msg rdata, tdata, this_dmesg, pReqMsg, pRespMsg, this_ready_msg, color_start_msg;
+  DiscoveryMsg *disc_msg_in, *disc_msg_out;
+  ReadyMsg *readyMsgIn, *readyMsgOut, *readyAckIn;
+  StartMsg *startMsg;  
+  unsigned int colors;
+
+  Neighbor_Rec_t neighborsToProcess[CIRCULAR_BUFFER_SIZE -1];
+  uint8_t readNeighborBuffer = 0, writeNeighborBuffer = 0;
+
+  Neighbor_Rec_t myOneHopNeighbors[MAX_ONE_HOP_NEIGHBORS];
+  Neighbor_Rec_t myTwoHopNeighbors[MAX_TWO_HOP_NEIGHBORS];
+  Neighbor_Rec_t myChildren[MAX_CHILDREN];
+  
+  uint8_t numChildren, numChildrenReady, numColoringStarts = 0;
+
+  Neighbor_Rec_t myWantedParent, myActualParent;
+
+  task void startApp()
+  {
+    atomic { myState = DISCOVERY; }
+    dbg(DBG_USR1, "%d started its App.\r\n", TOS_LOCAL_ADDRESS);
+    this_dmesg.type = START_MSG;
+    call Leds.redOff();
+    call Leds.greenOff();
+    call Leds.yellowOff();
+    call Timer1.start(TIMER_REPEAT, 2000 + (100 * myAddr));     // sends DiscoveryMsg
+    call Timer2.start(TIMER_ONE_SHOT, 30000 + (100 * myAddr));                   // stops DiscoveryMsg, sends ReadyMsg
+    call Timer4.start(TIMER_ONE_SHOT, 2250 + (100 * myAddr));                   // sends Start Message
+  }
+
+
+
+  command result_t StdControl.init()
+  {
+    atomic { myState = INIT; }
+    call Leds.init();
+    call CommControl.init();
+    call SubControl.init();
+    readInQHere = 0;
+    writeInQHere = 0;
+    readOutQHere = 0;
+    writeOutQHere = 0;
+    numMsgInQ = 0;
+    numMsgOutQ = 0;
+    readySent = 0;
+    myAddr = TOS_LOCAL_ADDRESS;
+    numOneHopNeighbors = 0;
+    numTwoHopNeighbors = 0;
+    myWantedParent.neighbor = NO_PARENT;
+    myWantedParent.color = NO_COLOR;
+    myWantedParent.level = NO_LEVEL;
+    numChildren = 0;
+    
+    maxOneHopColor = NO_COLOR;
+    maxTwoHopColor = NO_COLOR;
+    myActualParent.neighbor = NO_PARENT;
+    myActualParent.color = NO_COLOR;
+    myActualParent.level = NO_LEVEL;
+    
+    if ( myAddr == 0 ) // I am root,hear me roar !!!
+    {
+      myLevel = 0;
+      myColor = 1;
+    }
+    else // I an not root < whimper >
+    {
+      myLevel = NO_LEVEL;
+      myColor = NO_COLOR;
+    }
+    
+    for (index = 0; index < MAX_ONE_HOP_NEIGHBORS; index++)
+    {
+      myOneHopNeighbors[index].neighbor = NO_NEIGHBOR;
+      myOneHopNeighbors[index].color = NO_COLOR;
+      myOneHopNeighbors[index].level = NO_LEVEL;
+      myOneHopNeighbors[index].ready = 0;
+      myOneHopNeighbors[index].parent_id = NO_PARENT;
+    }
+    for (index = 0; index < MAX_TWO_HOP_NEIGHBORS; index++)
+    {
+      myTwoHopNeighbors[index].neighbor = NO_NEIGHBOR;
+      myTwoHopNeighbors[index].color = NO_COLOR;
+      myTwoHopNeighbors[index].level = NO_LEVEL;
+      myTwoHopNeighbors[index].ready = 0;
+      myTwoHopNeighbors[index].parent_id = NO_PARENT;
+    }
+    for (index = 0; index < MAX_CHILDREN; index++)
+    {
+      myChildren[index].neighbor = NO_NEIGHBOR;
+      myChildren[index].color = NO_COLOR;
+      myChildren[index].level = NO_LEVEL;
+      myChildren[index].ready = 0;
+      myChildren[index].parent_id = NO_PARENT;
+    }
+    for (index = 0; index < (CIRCULAR_BUFFER_SIZE - 1 ); index++)
+    {
+      neighborsToProcess[index].neighbor = NO_NEIGHBOR;
+      neighborsToProcess[index].color = NO_COLOR;
+      neighborsToProcess[index].level = NO_LEVEL;
+      neighborsToProcess[index].ready = 0;
+      neighborsToProcess[index].parent_id = NO_PARENT;
+    }
+    return SUCCESS;
+  }
+
+  command result_t StdControl.start()
+  {
+    call SubControl.start();
+    call CommControl.start();
+    if (TOS_LOCAL_ADDRESS == 0)
+    {
+      post startApp();
+      OkToStart = FALSE;
+    }
+    return SUCCESS;
+  }
+  
+  command result_t StdControl.stop()
+  {
+    call CommControl.stop();
+    call SubControl.stop();
+    return SUCCESS;
+  }
+
+  event result_t IntOutput.outputComplete(result_t success)
+  {
+    return SUCCESS;
+  }
+
+  event result_t SendDisc.sendDone(TOS_MsgPtr masg, result_t success)
+  {
+    return SUCCESS;
+  }
+
+  event result_t SendUDisc.sendDone(TOS_MsgPtr masg, result_t success)
+  {
+    return SUCCESS;
+  }
+
+  event result_t SendReady.sendDone(TOS_MsgPtr masg, result_t success)
+  {
+    return SUCCESS;
+  }
+
+  event result_t SendUReady.sendDone(TOS_MsgPtr masg, result_t success)
+  {
+    return SUCCESS;
+  }
+
+  event result_t SendReadyAck.sendDone(TOS_MsgPtr masg, result_t success)
+  {
+    return SUCCESS;
+  }
+
+  event result_t SendStart.sendDone(TOS_MsgPtr masg, result_t success)
+  {
+    return SUCCESS;
+  }
+
+  
+ 
+  task void processNeighbor()
+  {
+    //dbg(DBG_USR1, "%d entered processNeighbor.\r\n", myAddr);
+    //dbg(DBG_USR1, "%d has %d One Hop Neighbors before processing.\r\n", myAddr, numOneHopNeighbors);
+    //dbg(DBG_USR1, "%d has %d Two Hop Neighbors before processing.\r\n", myAddr, numTwoHopNeighbors);
+    uint8_t index3, found = 0;
+        for (index3 = 0; index3 < numOneHopNeighbors; index3 ++)
+        {
+          if (myOneHopNeighbors[index3].neighbor == neighborsToProcess[readNeighborBuffer].neighbor)
+          {
+            //dbg(DBG_USR1, "%d found %d in its One Hop Neighbor table.\r\n", myAddr, neighborsToProcess[readNeighborBuffer].neighbor);
+            found = 1;
+            if (myOneHopNeighbors[index3].color != neighborsToProcess[readNeighborBuffer].color)
+              myOneHopNeighbors[index3].color = neighborsToProcess[readNeighborBuffer].color;
+            if (myOneHopNeighbors[index3].level != neighborsToProcess[readNeighborBuffer].level)
+              myOneHopNeighbors[index3].level = neighborsToProcess[readNeighborBuffer].level;
+            atomic
+            {
+              if (++readNeighborBuffer >= CIRCULAR_BUFFER_SIZE)
+                readNeighborBuffer = 0;
+            }
+            break;
+          }
+        }
+        if (found == 1)
+          return;
+        
+        for (index3 = 0; index3 < numTwoHopNeighbors; index3 ++)
+        {
+          if (myTwoHopNeighbors[index3].neighbor == neighborsToProcess[readNeighborBuffer].neighbor)
+          {
+            //dbg(DBG_USR1, "%d found %d in its Two Hop Neighbor table.\r\n", myAddr, neighborsToProcess[readNeighborBuffer].neighbor);
+            found = 1;
+            if (myTwoHopNeighbors[index3].color != neighborsToProcess[readNeighborBuffer].color)
+              myTwoHopNeighbors[index3].color = neighborsToProcess[readNeighborBuffer].color;
+            if (myTwoHopNeighbors[index3].level != neighborsToProcess[readNeighborBuffer].level)
+              myTwoHopNeighbors[index3].level = neighborsToProcess[readNeighborBuffer].level;
+            atomic
+            {
+              if (++readNeighborBuffer >= CIRCULAR_BUFFER_SIZE)
+                readNeighborBuffer = 0;
+            }
+            break;
+          }
+        }
+        if (found == 1)
+        {
+          //dbg(DBG_USR1, "%d found %d in its Two Hop Neighbor table.\r\n", myAddr, neighborsToProcess[readNeighborBuffer].neighbor);
+          return;
+        }
+        //dbg(DBG_USR1, "%d added %d to its Two Hop Neighbor table.\r\n", myAddr, neighborsToProcess[readNeighborBuffer].neighbor);
+        atomic
+        {
+          myTwoHopNeighbors[index3].neighbor = neighborsToProcess[readNeighborBuffer].neighbor;
+          myTwoHopNeighbors[index3].color = neighborsToProcess[readNeighborBuffer].color;
+          myTwoHopNeighbors[index3].level = neighborsToProcess[readNeighborBuffer].level;
+          myTwoHopNeighbors[index3].ready = 0;
+          colors = colors | (0x1 << (neighborsToProcess[readNeighborBuffer].color - 1) );
+          if (++readNeighborBuffer >= CIRCULAR_BUFFER_SIZE)
+            readNeighborBuffer = 0;
+          numTwoHopNeighbors++;
+        }
+    //dbg(DBG_USR1, "%d has %d One Hop Neighbors after processing.\r\n", myAddr, numOneHopNeighbors);
+    //dbg(DBG_USR1, "%d has %d Two Hop Neighbors after processing.\r\n", myAddr, numTwoHopNeighbors);
+  
+  }
+
+
+  task void processOutMsg()
+  {
+    
+    /* First we copy the message to our outMsg TOS_Msg structure */
+    uint8_t *put, *get;
+    outMsg.addr   = outQ[readOutQHere].addr;
+    outMsg.type   = outQ[readOutQHere].type;
+    outMsg.group  = outQ[readOutQHere].group;
+    outMsg.crc    = outQ[readOutQHere].crc;
+    get = (int8_t *) &(outQ[readOutQHere].data);
+    put = (int8_t *) &(outMsg.data);
+    for (outIndex = 0; outIndex < TOS_DATA_LENGTH; outIndex++)
+    {
+      *put = *get;
+      put++;
+      get++;
+    }
+    
+    /* Check to see if there is work to be done.  This is a redundant check. */
+    if (numMsgOutQ > 0)
+    {
+      /* Find the type of message, and send it based on its type */
+      uint8_t type = outQ[readOutQHere].type;
+      switch (type)
+      {
+        case DISCOVERY_MSG_TYPE:
+          call SendDisc.send(TOS_BCAST_ADDR, sizeof(DiscoveryMsg), &outMsg);
+          break;
+        case READY_MSG_TYPE:
+          if (myAddr == 0)
+            call SendUReady.send(TOS_UART_ADDR, sizeof(ReadyMsg), &outMsg);
+          else
+            call SendReady.send(myWantedParent.neighbor, sizeof(ReadyMsg), &outMsg);
+          break;
+        case START_MSG:
+          //dbg(DBG_USR1, "%d sending START MSG\r\n", myAddr);
+          call SendStart.send(TOS_BCAST_ADDR, sizeof(StartMsg), &outMsg);
+          break;
+        default:
+          break;
+      }
+      if (++readOutQHere >= CIRCULAR_BUFFER_SIZE)
+        readOutQHere = 0;
+      numMsgOutQ --;
+    }
+  }
+
+ 
+
+  task void processInMsg()
+  {
+    uint8_t loopCounter, neighborIndex, found = 0, type = inQ[readInQHere].type;
+    
+    
+    if (1) // for the time being there is no difference between root and other nodes (myAddr != 0)
+    {
+      if (type == DISCOVERY_MSG_TYPE)
+      {
+        disc_msg_in = (DiscoveryMsg *) inQ[readInQHere].data;
+
+        //dbg(DBG_USR1, "%d heard Discovery message from %d with a color of %d and a level of %d.\r\n", myAddr, disc_msg_in->src, disc_msg_in->color, disc_msg_in->level);
+          atomic
+          {
+            // if already in tables, update OneHop record
+            for (loopCounter = 0; loopCounter < numOneHopNeighbors; loopCounter ++)
+            {
+              //  If already in table, update it
+              if (myOneHopNeighbors[loopCounter].neighbor == disc_msg_in->src)
+              {
+                //call Leds.greenToggle();
+                found = 1;
+                //dbg(DBG_USR1, "%d already has %d in OneHop table, color: %d, level: %d.\r\n", myAddr, disc_msg_in->src, myOneHopNeighbors[loopCounter].color, myOneHopNeighbors[loopCounter].level);
+                if (myOneHopNeighbors[loopCounter].color != disc_msg_in->color)
+                {
+                  //dbg(DBG_USR1, "%d updated %d color to %d\r\n", myAddr, disc_msg_in->src, disc_msg_in->color);
+                  myOneHopNeighbors[loopCounter].color = disc_msg_in->color;
+                }
+                if (myOneHopNeighbors[loopCounter].level != disc_msg_in->level)
+                {
+                  //dbg(DBG_USR1, "%d updated %d level to %d\r\n", myAddr, disc_msg_in->src, disc_msg_in->level);
+                  myOneHopNeighbors[loopCounter].level = disc_msg_in->level;
+                }
+                if (myOneHopNeighbors[loopCounter].parent_id != disc_msg_in->parent_id)
+                {
+                  //dbg(DBG_USR1, "%d updated %d parent to %d\r\n", myAddr, disc_msg_in->src, disc_msg_in->parent_id);
+                  myOneHopNeighbors[loopCounter].parent_id = disc_msg_in->parent_id;
+
+                }
+                break;
+              }
+            }
+
+            // if not in One Hop tables, add it
+            if ( (found == 0) && (disc_msg_in->src != myAddr) )
+            {
+              myOneHopNeighbors[numOneHopNeighbors].neighbor = disc_msg_in->src;
+              myOneHopNeighbors[numOneHopNeighbors].color= disc_msg_in->color;
+              myOneHopNeighbors[numOneHopNeighbors].level= disc_msg_in->level;
+              myOneHopNeighbors[numOneHopNeighbors].parent_id= disc_msg_in->parent_id;
+              myOneHopNeighbors[numOneHopNeighbors++].ready= 0;
+              colors = colors | (0x1 << (disc_msg_in->color - 1) );
+              //if (disc_msg_in->color > maxOneHopColor)
+              //  maxOneHopColor = disc_msg_in->color;
+              //dbg(DBG_USR1, "%d with a color of %d added %d level %d to OneHop table.\r\n", myAddr, disc_msg_in->color, disc_msg_in->src, disc_msg_in->level);
+            }
+            
+            // if I hear root, my level becomes 1
+            if (disc_msg_in->src == 0)
+            {
+              atomic 
+              {
+                //dbg(DBG_USR1, "%d heard root\r\n", myAddr);        
+                myLevel = 1;
+                myWantedParent.neighbor = 0;
+                myWantedParent.color = 1;
+                myWantedParent.level = 0;
+                myWantedParent.parent_id = 0;
+
+              }
+            }
+            else // I don't hear root, maybe I can use this one - loosy style
+            {
+              if (myAddr != 0)
+              {
+                // is this a lower level for me ?
+                // if so, make it the Wanted Parent, but don't tell it ... shh!
+                if ( (disc_msg_in->level) < (myLevel -1) )
+                {
+                  myLevel = disc_msg_in->level + 1;
+                  myWantedParent.neighbor = disc_msg_in->src;
+                  myWantedParent.color = disc_msg_in->color;
+                  myWantedParent.level = disc_msg_in->level;
+                  myWantedParent.parent_id = disc_msg_in->parent_id;
+                }
+              }
+            }
+            
+            // process Neighbor Table here
+            for (neighborIndex = 0; neighborIndex < disc_msg_in->num_neighbors; neighborIndex ++)
+            {
+              if (disc_msg_in->neighbors[neighborIndex].neighbor != myAddr)
+              {
+                neighborsToProcess[writeNeighborBuffer].neighbor = disc_msg_in->neighbors[neighborIndex].neighbor;
+                neighborsToProcess[writeNeighborBuffer].color = disc_msg_in->neighbors[neighborIndex].color;
+                atomic
+                {
+                  if (++writeNeighborBuffer == CIRCULAR_BUFFER_SIZE)
+                    writeNeighborBuffer = 0;
+                  post processNeighbor();
+                } // end atomic statement
+              } // if the neighbor is not me
+            }
+            
+          } // end atomic
+
+      } // end DISCOVERY_MSG_TYPE
+      
+
+      else if (type == READY_MSG_TYPE)
+      {
+        readyMsgIn = (ReadyMsg *) inQ[readInQHere].data;
+        dbg(DBG_USR1, "%d heard a READY MSG from %d\r\n", myAddr, readyMsgIn->src);
+        
+        //call Leds.yellowOn();
+        if (myAddr == 0)
+        {
+          if (readyMsgIn->dest == 0)
+          {
+            outQ[writeOutQHere].addr = myWantedParent.neighbor;
+            outQ[writeOutQHere].type = READY_MSG_TYPE;
+            readyMsgOut = (ReadyMsg *)outQ[writeOutQHere].data;
+            readyMsgOut->src = readyMsgIn->src;
+            readyMsgOut->dest = readyMsgIn->dest;
+            readyMsgOut->parent = readyMsgIn->parent;
+            readyMsgOut->num_children = readyMsgIn->num_children;
+            if (++writeOutQHere >= CIRCULAR_BUFFER_SIZE)
+              writeOutQHere = 0;
+            numMsgOutQ ++;
+          }
+          post processOutMsg();
+        }
+        else
+        {
+          if (readyMsgIn->dest == myAddr)
+          {
+            atomic
+            {
+              outQ[writeOutQHere].addr = myWantedParent.neighbor;
+              outQ[writeOutQHere].type = READY_MSG_TYPE;
+              readyMsgOut = (ReadyMsg *)outQ[writeOutQHere].data;
+              readyMsgOut->src = readyMsgIn->src;
+              readyMsgOut->dest = myWantedParent.neighbor;
+              readyMsgOut->parent = readyMsgIn->parent;
+              readyMsgOut->num_children = readyMsgIn->num_children;
+    
+              if (++writeOutQHere >= CIRCULAR_BUFFER_SIZE)
+                writeOutQHere = 0;
+              numMsgOutQ ++;
+            }
+            dbg(DBG_USR1, "%d forwarding a READY MSG from %d to %d\r\n", myAddr, readyMsgIn->src, myWantedParent.neighbor);
+            post processOutMsg();
+          }
+        }
+
+      }
+      else if (type == READY_ACK_MSG_TYPE)
+      {
+        readyAckIn = (ReadyMsg *) inMsg->data;
+        heardFrom = heardFrom | ( 1 << ( readyAckIn->src));
+        //dbg(DBG_USR1, "%d received ACK_MSG, addressed to: %d\r\n", myAddr, inMsg->addr);
+        if (inMsg->addr == myAddr)
+        {
+          //dbg(DBG_USR1, "%d says Ack received from parent.\r\n", myAddr);
+          call Timer1.start(TIMER_REPEAT, 5000);
+          call Timer3.start(TIMER_ONE_SHOT, 30000);
+        }
+        readyMsgIn = (ReadyMsg *) inMsg->data;
+        
+      }
+      else if (type == START_MSG)
+      {
+        //dbg(DBG_USR1, "%d heard a START MSG\r\n", myAddr);
+        if (OkToStart)
+        {
+          
+          atomic
+          {
+            outQ[writeOutQHere].addr = TOS_BCAST_ADDR;
+            outQ[writeOutQHere].type = START_MSG;
+    
+            if (++writeOutQHere >= CIRCULAR_BUFFER_SIZE)
+              writeOutQHere = 0;
+            numMsgOutQ ++;
+          }
+          post processOutMsg();
+          
+          post startApp();
+          OkToStart = FALSE;
+          call Timer4.start(TIMER_ONE_SHOT, 2005 + 2 * TOS_LOCAL_ADDRESS);
+        }
+      }
+      
+    } // end if TRUE -- used to be myAddr != 0
+   
+    numMsgInQ --;
+    readInQHere ++;
+    if (readInQHere >= CIRCULAR_BUFFER_SIZE)
+      readInQHere = 0;
+    
+  } // end processInMsg
+
+
+
+  event TOS_MsgPtr Receive.receive(TOS_MsgPtr n)
+  {
+    int8_t loopCounter, *put, *get;
+    //if (n->type == START_MSG)
+    //  call Leds.redOn();
+    //else if (n->type == START_MSG)
+    //  call Leds.yellowToggle();
+
+  /*
+        TOS_Msg OTA fields
+        ------------------
+
+        uint16_t    addr
+        uint8_t     type
+        uint8_t     group
+        int8_t      data[29]
+        uint16_t    crc
+  */
+    inQ[writeInQHere].addr = n->addr;
+    inQ[writeInQHere].type = n->type;
+    inQ[writeInQHere].group = n->group;
+    inQ[writeInQHere].crc = n->crc;
+    put = (int8_t *) &(inQ[writeInQHere].data);
+    get = (int8_t *) &(n->data);
+    for (loopCounter = 0; loopCounter < TOS_DATA_LENGTH; loopCounter++)
+    {
+      *put = *get;
+      put++;
+      get++;
+    }
+    if (++writeInQHere >= CIRCULAR_BUFFER_SIZE)
+      writeInQHere = 0;
+    numMsgInQ ++; 
+    post processInMsg();
+    return n;
+  }
+  
+  
+  task void sendDiscovery()
+  {
+    /*
+          TOS_Msg OTA fields
+          ------------------
+
+          uint16_t    addr
+          uint8_t     type
+          uint8_t     group
+          int8_t      data[29]
+          uint16_t    crc
+    */
+      atomic
+      {
+        outQ[writeOutQHere].addr = TOS_BCAST_ADDR;
+        outQ[writeOutQHere].type = DISCOVERY_MSG_TYPE;
+        disc_msg_out = (DiscoveryMsg *)outQ[writeOutQHere].data;
+        disc_msg_out->src = myAddr;
+        disc_msg_out->color = myColor;
+        disc_msg_out->level = myLevel;
+        disc_msg_out->parent_id = myWantedParent.neighbor;
+        disc_msg_out->num_neighbors = numOneHopNeighbors + numTwoHopNeighbors;
+        for (dindex = 0; dindex < numOneHopNeighbors; dindex++)
+        {
+            disc_msg_out->neighbors[dindex].neighbor = myOneHopNeighbors[dindex].neighbor;
+            disc_msg_out->neighbors[dindex].color = myOneHopNeighbors[dindex].color;
+        }
+    
+        if (++writeOutQHere >= CIRCULAR_BUFFER_SIZE)
+          writeOutQHere = 0;
+        numMsgOutQ ++;
+      }
+      post processOutMsg();
+  }
+
+
+
+
+  /* This sends ready message to parent  */
+  task void sendReadyMsg()
+  {
+    if ( (myAddr == 0) || ( (myWantedParent.neighbor != NO_PARENT) && (myAddr != 0) ) )
+    {
+      atomic
+      {
+        outQ[writeOutQHere].addr = TOS_BCAST_ADDR;
+        //outQ[writeOutQHere].addr = myWantedParent.neighbor;
+        outQ[writeOutQHere].type = READY_MSG_TYPE;
+        readyMsgOut = (ReadyMsg *)outQ[writeOutQHere].data;
+        readyMsgOut->src = myAddr;
+        readyMsgOut->dest = myWantedParent.neighbor;
+        readyMsgOut->parent = myWantedParent.neighbor;
+        readyMsgOut->num_children = numChildren;
+    
+        if (++writeOutQHere >= CIRCULAR_BUFFER_SIZE)
+          writeOutQHere = 0;
+        numMsgOutQ ++;
+      }
+      post processOutMsg();
+    }
+    else /* I am not root and I have no parent.  I should shutdown. */
+    {
+      ; // put shutdown code here
+    }
+  }
+
+  /* This posts a sendDiscovery task. */
+  event result_t Timer1.fired()
+  {
+    post sendDiscovery();
+    return SUCCESS;
+  }
+
+
+  /* This is the READY_MSG timer.  It sends a ready Message, then sets a flag, and calls itself again. */
+  event result_t Timer2.fired()
+  {
+    uint8_t chIndex = 0, oneIndex = 0; 
+    if (readySent == 0)
+    {
+      for (oneIndex=0; oneIndex < numOneHopNeighbors; oneIndex ++)
+      {
+        if (myOneHopNeighbors[oneIndex].parent_id == myAddr)  // this is my child
+        {
+          myChildren[chIndex].neighbor = myOneHopNeighbors[oneIndex].neighbor;
+          myChildren[chIndex].color = myOneHopNeighbors[oneIndex].color;
+          myChildren[chIndex].level = myOneHopNeighbors[oneIndex].level;
+          myChildren[chIndex].parent_id = myOneHopNeighbors[oneIndex].parent_id;
+          numChildren++;
+          chIndex++;
+        }
+      }
+      readySent = 1;
+      call Timer1.stop();
+      post sendReadyMsg();
+      call Timer2.start(TIMER_ONE_SHOT, 1125 + (125 * myAddr));
+    }
+    else
+    {
+      post sendReadyMsg();
+      call Leds.redOff();
+      call Leds.greenOff();
+      call Leds.yellowOff();
+      if (myWantedParent.neighbor & 1)
+        call Leds.redOn();
+      if (myWantedParent.neighbor &2)
+        call Leds.greenOn();
+      if (myWantedParent.neighbor & 4)
+        call Leds.yellowOn();
+    }
+    return SUCCESS;
+  }
+  
+
+
+  /* This timer stops sending Discovery Messages */
+  event result_t Timer3.fired()
+  {
+    call Timer1.stop();
+    return SUCCESS;
+  }
+
+  
+  /* This is the start timer.  It prevents multiple START_MSG messages within 5 seconds */
+  event result_t Timer4.fired()
+  {
+    atomic
+    {
+      outQ[writeOutQHere].addr = TOS_BCAST_ADDR;
+      outQ[writeOutQHere].type = START_MSG;
+      if (++writeOutQHere >= CIRCULAR_BUFFER_SIZE)
+        writeOutQHere = 0;
+      numMsgOutQ ++;
+    }
+    post processOutMsg();
+
+    // Uncomment the below line to enable end-of-test messages
+    //call Timer5.start(TIMER_ONE_SHOT, 50000);
+
+    return SUCCESS;
+  }
+
+
+  /**************************************
+   *
+   *    FUNCTIONALITY FOR TESTING
+   *
+   **************************************/
+
+  /* This timer sends a ready message out of the UART port to signal it is the end of the test. */
+  event result_t Timer5.fired()
+  {
+    OkToStart = TRUE;
+    outMsg.addr   = TOS_UART_ADDR;
+    outMsg.type   = READY_MSG_TYPE;
+    readyMsgOut = (ReadyMsg *)outMsg.data;
+    readyMsgOut->src = 0xff;
+    readyMsgOut->dest = 0xff;
+    readyMsgOut->parent = 0xff;
+    readyMsgOut->num_children = 0xff;
+    call SendUReady.send(TOS_UART_ADDR, sizeof(ReadyMsg), &outMsg);
+    return SUCCESS;
+  }
+} // end Implementation
+

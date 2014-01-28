@@ -1,0 +1,3 @@
+cp Makefile.telosb.nodfpr Makefile
+make clean
+make telosb

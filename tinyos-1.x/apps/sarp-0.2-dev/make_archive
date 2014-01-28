@@ -1,0 +1,21 @@
+#!/bin/bash
+
+ARCHIVE_FILE="Sarp.tar.gz"
+
+if [ -f $ARCHIVE_FILE ]
+then
+  echo "File exists!"
+  rm $ARCHIVE_FILE
+fi
+
+mkdir tempTar
+mkdir tempTar/Sarp
+cd tempTar
+cp -R ../* Sarp/
+rm -r Sarp/tempTar
+rm -r Sarp/build
+tar -czvpf $ARCHIVE_FILE Sarp/*
+mv Sarp.tar.gz ../
+cd ../
+rm -r tempTar
+

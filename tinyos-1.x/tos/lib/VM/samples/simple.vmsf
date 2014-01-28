@@ -1,0 +1,22 @@
+<VM NAME="SimpleVM" DESC="A simple example VM that enables a few basic operations, such a packet sends, sensing, and operating the LEDs" DIR="../../../../apps/ASimpleVM">
+<SEARCH PATH="../opcodes">
+<SEARCH PATH="../contexts">
+<SEARCH PATH="../languages">
+<SEARCH PATH="../../../sensorboards/micasb">
+<LANGUAGE NAME="tscript">
+<PRIMITIVE NAME="putled">
+<PRIMITIVE NAME="send">
+<PRIMITIVE NAME="light">
+<PRIMITIVE NAME="temp">
+<PRIMITIVE NAME="bclear">
+<PRIMITIVE NAME="bufsorta">
+<PRIMITIVE NAME="bufsortd">
+<PRIMITIVE NAME="cast">
+<PRIMITIVE NAME="id">
+<PRIMITIVE NAME="son">
+<PRIMITIVE NAME="soff">
+<PRIMITIVE NAME="uart">
+<PRIMITIVE NAME="rand">
+<CONTEXT NAME="Timer0">
+<CONTEXT NAME="Once">
+

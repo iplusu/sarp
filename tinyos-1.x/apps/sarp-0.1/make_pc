@@ -1,0 +1,2 @@
+cp Makefile.pc Makefile
+make pc

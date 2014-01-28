@@ -1,0 +1,3 @@
+COMPONENT=Sarp
+PFLAGS=-I%T/lib/Counters -I%T/../apps/sarp-0.5-dev/includes -I%T/../apps/sarp-0.5-dev/modules -I%T/../apps/sarp-0.5-dev/interfaces -DNOSARP -DONOFFATTACK -DSARP04 -DDEBUG
+include ../Makerules

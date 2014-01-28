@@ -1,0 +1,5 @@
+#-*-Makefile-*- vim:syntax=make
+#$Id: debugopt.extra,v 1.2 2005/09/06 18:22:11 radler Exp $
+
+OPTFLAGS += -O3 -g
+

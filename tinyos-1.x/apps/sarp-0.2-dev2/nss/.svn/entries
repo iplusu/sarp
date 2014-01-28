@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="41"
+   name=""
+   committed-date="2009-06-22T16:05:19.592800Z"
+   url="svn://idk.crazeekennee.com/sarp/tinyos/apps/sarp-0.2-dev/nss"
+   last-author="crazeekennee"
+   kind="dir"
+   uuid="c3acbf51-5421-4002-8011-9ac2d7fbba31"
+   repos="svn://idk.crazeekennee.com/sarp"
+   revision="44"/>
+<entry
+   committed-rev="41"
+   name="chnet.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="800638c5480800e50a2908d4b0f0b350"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+<entry
+   committed-rev="41"
+   name="network_small.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="695c825792fa27c8ba74ea118daccd65"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+<entry
+   committed-rev="41"
+   name="two_wide.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="2ee6c38888353769fe5dc19492a38836"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+<entry
+   committed-rev="41"
+   name="grid_25_motes.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="fec1176251807ca71896efaa81fa4fd0"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+<entry
+   committed-rev="41"
+   name="blnet.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="37bc52a3d7d5435debadd995ec94e0b3"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+<entry
+   committed-rev="41"
+   name="bnet.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="12d619c18ce67475eb3c134fc5f3e8bf"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+<entry
+   committed-rev="41"
+   name="network.nss"
+   text-time="2009-11-28T19:27:35.000000Z"
+   committed-date="2009-06-22T16:05:19.592800Z"
+   checksum="e7787612861bcf87ca9fcd0a20838cc5"
+   last-author="crazeekennee"
+   kind="file"
+   prop-time="2009-11-28T19:27:35.000000Z"/>
+</wc-entries>

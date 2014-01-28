@@ -1,0 +1,3 @@
+COMPONENT=Sarp
+PFLAGS=-I%T/lib/Counters -I%T/../apps/sarp-0.4-dev/includes -I%T/../apps/sarp-0.4-dev/modules -I%T/../apps/sarp-0.4-dev/interfaces -DONOFFATTACK -DDYNAMIC_FORGETTING -DSARP04 -DMODIFIED_DF -DMODIFIED_DF_BEHAVIOR -D__REAL__MOTE__ -I%T/lib/Util
+include ../Makerules

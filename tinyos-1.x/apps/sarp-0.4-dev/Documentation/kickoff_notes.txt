@@ -1,0 +1,22 @@
+network reports, tradeoff of threshhold for reporting, adjusting false positives
+
+dynamic threshold -- changed as per mission, or criticality level
+
+power efficiency
+  -- versus
+
+questions for onur
+
+  -- how can tell of data is "good" or not (checksum, cryptography)
+
+-- bimonthly teleconference meetings
+
+-- Af come to mZeal one day, meet with Rajini and Onur
+
+-- mid April, around the 11th
+  -- Thursday
+
+--regular reporting will help to hide reports of maliciousness
+
+
+-Node level stuff first

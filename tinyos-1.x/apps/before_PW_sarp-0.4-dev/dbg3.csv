@@ -1,0 +1,3301 @@
+SIM: Random seed is 984478
+SIM: Time for mote 0 initialized to 18808395.
+SIM: Time for mote 1 initialized to 17865060.
+SIM: Time for mote 2 initialized to 25802604.
+SIM: Time for mote 3 initialized to 11341141.
+SIM: Time for mote 4 initialized to 7852235.
+SIM: Time for mote 5 initialized to 12744518.
+SIM: Time for mote 6 initialized to 23760115.
+SIM: Time for mote 7 initialized to 1573642.
+SIM: Time for mote 8 initialized to 589898.
+8: StartMsg // Timer4.fired() in SarpM.nc at 1415
+8: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+8: SendStart Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 0 from 0
+7: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+8: SendStart Done from 8 to 65535
+7: StartMsg // Timer4.fired() in SarpM.nc at 1415
+7: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+7: SendStart Done from 7 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 21
+8: 8 heard a CONTROL MSG type: 0 from 0
+8: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+7: SendStart Done from 7 to 65535
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+4: StartMsg // Timer4.fired() in SarpM.nc at 1415
+4: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+4: SendStart Done from 4 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 0 from 0
+3: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 0 from 255
+7: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+5: In receive in SarpM.nc 1187
+5: Type in receive 21
+5: 5 heard a CONTROL MSG type: 0 from 0
+5: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+4: SendStart Done from 4 to 65535
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+3: StartMsg // Timer4.fired() in SarpM.nc at 1415
+3: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+3: SendStart Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 0 from 255
+4: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+3: SendStart Done from 3 to 65535
+5: StartMsg // Timer4.fired() in SarpM.nc at 1415
+5: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+5: SendStart Done from 5 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 0 from 255
+4: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+8: In receive in SarpM.nc 1187
+8: Type in receive 21
+8: 8 heard a CONTROL MSG type: 0 from 255
+8: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+5: SendStart Done from 5 to 65535
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+1: StartMsg // Timer4.fired() in SarpM.nc at 1415
+1: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+1: SendStart Done from 1 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 0 from 255
+0: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 0 from 255
+4: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+1: SendStart Done from 1 to 65535
+0: StartMsg // Timer4.fired() in SarpM.nc at 1415
+0: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+0: SendStart Done from 0 to 65535
+1: In receive in SarpM.nc 1187
+1: Type in receive 21
+1: 1 heard a CONTROL MSG type: 0 from 0
+1: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 0 from 255
+3: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+0: SendStart Done from 0 to 65535
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+1: SendStart Done from 1 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 255
+1: SendStart Done from 1 to 0
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 255
+3: SendStart Done from 3 to 0
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+4: SendStart Done from 4 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: StartMsg // Timer4.fired() in SarpM.nc at 1415
+6: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 2
+6: SendStart Done from 6 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 0 from 255
+7: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 0 from 0
+3: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+6: SendStart Done from 6 to 65535
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: StartMsg // Timer4.fired() in SarpM.nc at 1415
+2: =putStartMsgInOutQ= : numMsgOutQ : 1 writeOutQHere : 1
+2: SendStart Done from 2 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 21
+5: 5 heard a CONTROL MSG type: 0 from 255
+5: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+1: In receive in SarpM.nc 1187
+1: Type in receive 21
+1: 1 heard a CONTROL MSG type: 0 from 0
+1: FALSE : StartMsg // OkToStart in SarpM.nc at 644
+2: SendStart Done from 2 to 65535
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 1
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+7: SendStart Done from 7 to 6
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+1: SendStart Done from 1 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 255
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 1
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+1: SendStart Done from 1 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+1: SendStart Done from 1 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 255
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+2: SendStart Done from 2 to 1
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+4: SendStart Done from 4 to 3
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: In receive in SarpM.nc 1187
+1: Type in receive 21
+1: 1 heard a CONTROL MSG type: 1 from 255
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+1: SendStart Done from 1 to 0
+2: SendStart Done from 2 to 1
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+1: SendStart Done from 1 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+3: SendStart Done from 3 to 0
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+1: SendStart Done from 1 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+1: SendStart Done from 1 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 1
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 1
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+6: SendStart Done from 6 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+8: SendStart Done from 8 to 7
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+4: SendStart Done from 4 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 255
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+2: SendStart Done from 2 to 1
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+4: SendStart Done from 4 to 3
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+1: In receive in SarpM.nc 1187
+1: Type in receive 21
+1: 1 heard a CONTROL MSG type: 1 from 0
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+1: SendStart Done from 1 to 0
+2: SendStart Done from 2 to 1
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+1: SendStart Done from 1 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 255
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+3: SendStart Done from 3 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+5: SendStart Done from 5 to 4
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+1: SendStart Done from 1 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+7: SendStart Done from 7 to 6
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+1: SendStart Done from 1 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+5: SendStart Done from 5 to 4
+1: In receive in SarpM.nc 1187
+1: Type in receive 20
+1: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+1: SendStart Done from 1 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 42787
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+8: SendStart Done from 8 to 7
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+8: SendStart Done from 8 to 7
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+4: SendStart Done from 4 to 3
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+2: SendStart Done from 2 to 1
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+2: SendStart Done from 2 to 1
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+7: SendStart Done from 7 to 6
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+3: SendStart Done from 3 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+5: SendStart Done from 5 to 4
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+3: SendStart Done from 3 to 0
+5: SendStart Done from 5 to 4
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+5: SendStart Done from 5 to 4
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+7: SendStart Done from 7 to 6
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 42787
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+6: SendStart Done from 6 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+6: SendStart Done from 6 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+2: SendStart Done from 2 to 1
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+4: SendStart Done from 4 to 3
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: SendStart Done from 2 to 1
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+7: SendStart Done from 7 to 6
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+3: SendStart Done from 3 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+5: SendStart Done from 5 to 4
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+7: SendStart Done from 7 to 6
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+3: SendStart Done from 3 to 0
+7: SendStart Done from 7 to 6
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+6: SendStart Done from 6 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+4: SendStart Done from 4 to 3
+6: SendStart Done from 6 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+8: SendStart Done from 8 to 7
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+2: SendStart Done from 2 to 1
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+4: SendStart Done from 4 to 3
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: SendStart Done from 2 to 1
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+7: SendStart Done from 7 to 6
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+3: SendStart Done from 3 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+5: SendStart Done from 5 to 4
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+6: SendStart Done from 6 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+2: SendStart Done from 2 to 1
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: SendStart Done from 2 to 1
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+7: SendStart Done from 7 to 6
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+7: SendStart Done from 7 to 6
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+6: SendStart Done from 6 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+5: SendStart Done from 5 to 4
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 1
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+6: SendStart Done from 6 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+8: SendStart Done from 8 to 7
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+2: SendStart Done from 2 to 1
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+2: SendStart Done from 2 to 1
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+5: SendStart Done from 5 to 4
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+6: SendStart Done from 6 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 1
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 1
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+6: SendStart Done from 6 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+8: SendStart Done from 8 to 7
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+2: SendStart Done from 2 to 1
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+8: SendStart Done from 8 to 7
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: SendStart Done from 8 to 7
+2: SendStart Done from 2 to 1
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 17
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+5: SendStart Done from 5 to 4
+7: SendStart Done from 7 to 6
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+6: SendStart Done from 6 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+8: SendStart Done from 8 to 7
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+4: SendStart Done from 4 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+2: SendStart Done from 2 to 1
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: SendStart Done from 2 to 1
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+5: SendStart Done from 5 to 4
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+5: SendStart Done from 5 to 4
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 1
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+4: SendStart Done from 4 to 3
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+4: SendStart Done from 4 to 3
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+2: SendStart Done from 2 to 1
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: SendStart Done from 2 to 1
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+7: In receive in SarpM.nc 1187
+7: Type in receive 21
+7: 7 heard a CONTROL MSG type: 1 from 4
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+7: SendStart Done from 7 to 6
+8: SendStart Done from 8 to 7
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 11
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 13
+3: SendStart Done from 3 to 0
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 25
+7: SendStart Done from 7 to 6
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+5: SendStart Done from 5 to 4
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: In receive in SarpM.nc 1187
+6: Type in receive 21
+6: 6 heard a CONTROL MSG type: 1 from 3
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+6: SendStart Done from 6 to 3
+7: SendStart Done from 7 to 6
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 15
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 0
+4: SendStart Done from 4 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 18
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 10
+5: SendStart Done from 5 to 4
+7: In receive in SarpM.nc 1187
+7: Type in receive 20
+7: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+7: SendStart Done from 7 to 6
+8: SendUDisc Done from 8 to 65535
+8: SendDisc Done from 8 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 1
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+7: SendUDisc Done from 7 to 65535
+7: SendDisc Done from 7 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 20
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+8: SendStart Done from 8 to 7
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+2: SendStart Done from 2 to 1
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+4: SendStart Done from 4 to 3
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 21
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendStart Done from 2 to 1
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 22
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+4: SendUDisc Done from 4 to 65535
+4: SendDisc Done from 4 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 23
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+6: SendStart Done from 6 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 26
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 27
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: In receive in SarpM.nc 1187
+2: Type in receive 20
+2: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 24
+2: SendStart Done from 2 to 1
+8: In receive in SarpM.nc 1187
+8: Type in receive 20
+8: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+8: SendStart Done from 8 to 7
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 6
+4: SendStart Done from 4 to 3
+5: SendUDisc Done from 5 to 65535
+5: SendDisc Done from 5 to 65535
+2: SendStart Done from 2 to 1
+8: SendStart Done from 8 to 7
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 28
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 29
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 14
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 7
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 30
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 31
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+6: In receive in SarpM.nc 1187
+6: Type in receive 20
+6: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+6: SendStart Done from 6 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 20
+4: In receive in SarpM.nc 1187
+4: Type in receive 20
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+4: SendStart Done from 4 to 3
+3: SendUDisc Done from 3 to 65535
+3: SendDisc Done from 3 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 1
+3: SendStart Done from 3 to 0
+6: SendStart Done from 6 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 2
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 2
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+1: SendUDisc Done from 1 to 65535
+1: SendDisc Done from 1 to 65535
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 3
+3: SendStart Done from 3 to 0
+0: SendUDisc Done from 0 to 65535
+0: SendDisc Done from 0 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+5: SendData Done from 5 to 4
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 16
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 1
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 9
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 0
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 4
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+3: In receive in SarpM.nc 1187
+3: Type in receive 20
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 5
+3: SendStart Done from 3 to 0
+6: SendUDisc Done from 6 to 65535
+6: SendDisc Done from 6 to 65535
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 1
+3: SendStart Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+5: In receive in SarpM.nc 1187
+5: Type in receive 20
+5: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 19
+5: SendStart Done from 5 to 4
+2: SendUDisc Done from 2 to 65535
+2: SendDisc Done from 2 to 65535
+4: In receive in SarpM.nc 1187
+4: Type in receive 21
+4: 4 heard a CONTROL MSG type: 1 from 3
+4: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 12
+4: SendStart Done from 4 to 3
+5: SendStart Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 21
+3: 3 heard a CONTROL MSG type: 1 from 4
+3: *putNeighborDiscoveryControlMsgInOutQ* : numMsgOutQ : 1 writeOutQHere : 8
+3: SendStart Done from 3 to 0
+4: SendStart Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 21
+0: 0 heard a CONTROL MSG type: 1 from 3
+3: SendStart Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+4: SendData Done from 4 to 3
+5: SendData Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 24
+3: SendData Done from 3 to 0
+4: SendData Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 24
+3: SendData Done from 3 to 0
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+5: SendData Done from 5 to 4
+5: SendData Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 24
+5: SendData Done from 5 to 4
+5: TID: c350 writeOutQHere: 26, maxQSize: 32, numMsgOutQ: 0, MYADDR: 5
+5: SendReportRequest Done from 5 to 4
+4: In receive in SarpM.nc 1187
+4: Type in receive 26
+4: T-ID:50000 Received Report Request Message from 5 and forward to 3
+4: SendReportRequest Done from 4 to 3
+5: SendReportRequest Done from 5 to 4
+3: In receive in SarpM.nc 1187
+3: Type in receive 26
+3: T-ID:50000 Received Report Request Message from 4 and forward to 0
+3: SendReportRequest Done from 3 to 0
+4: SendReportRequest Done from 4 to 3
+0: In receive in SarpM.nc 1187
+0: Type in receive 26
+0: Root heard a request for report.
+0: Root Transaction gotten in SarpM.nc at 884
+0: Root received a E2E request for report to 5 TID: 50000
+0: Root End-2-End Report in outQ SarpM line 576
+0: 0 heard a Report Request message from 5
+0: SendEndToEndReportResponse Done from 0 to 3
+3: SendReportRequest Done from 3 to 0
+3: In receive in SarpM.nc 1187
+3: Type in receive 29
+3: Root received a E2E request for report to 5 TID: 50000
+3: SendEndToEndReportResponse Done from 3 to 4
+0: SendEndToEndReportResponse Done from 0 to 3
+4: In receive in SarpM.nc 1187
+4: Type in receive 29
+4: Root received a E2E request for report to 5 TID: 50000
+4: SendEndToEndReportResponse Done from 4 to 5
+3: SendEndToEndReportResponse Done from 3 to 4
+5: In receive in SarpM.nc 1187
+5: Type in receive 29
+4: SendEndToEndReportResponse Done from 4 to 5
+0: readReportQHere 0
+0: In ReportQ 0 50000
+0: In ReportQ 1 0
+0: In ReportQ 2 0
+0: In ReportQ 3 0
+0: In ReportQ 4 0
+0: In ReportQ 5 0
+0: In ReportQ 6 0
+0: In ReportQ 7 0
+0: In ReportQ 8 0
+0: In ReportQ 9 0
+0: In ReportQ 10 0
+0: In ReportQ 11 0
+0: In ReportQ 12 0
+0: In ReportQ 13 0
+0: In ReportQ 14 0
+0: In ReportQ 15 0
+0: In ReportQ 16 0
+0: In ReportQ 17 0
+0: In ReportQ 18 0
+0: In ReportQ 19 0
+0: In ReportQ 20 0
+0: In ReportQ 21 0
+0: In ReportQ 22 0
+0: In ReportQ 23 0
+0: In ReportQ 24 0
+0: In ReportQ 25 0
+0: In ReportQ 26 0
+0: In ReportQ 27 0
+0: In ReportQ 28 0
+0: In ReportQ 29 0
+0: In ReportQ 30 0
+0: In ReportQ 31 0
+0: SendReportForwardResponse Done from 0 to 3
+3: In receive in SarpM.nc 1187
+3: Type in receive 28
+3: SendReportNoForwardResponse Done from 3 to 3
+0: SendReportForwardResponse Done from 0 to 3
+3: SendReportNoForwardResponse Done from 3 to 3
+3: readReportQHere 0
+3: In Repor
